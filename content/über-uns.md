@@ -59,7 +59,7 @@ titel = "### IP-INTERVENTIONAL PRODUCTS"
 [geschaeftsbereiche.titel.textfarbe]
 farbe = "weiss:rgb(255,255,255)"
 [[geschaeftsbereiche]]
-logos = ["/uploads/2019/05/02/trireme.png", "/uploads/2019/05/02/lifetech.png", "/uploads/2019/05/02/ivascular-logo-1.png", "/uploads/2019/05/02/alvimedica.png"]
+logos = []
 titel_lang = "[endotrade]Geschäftsbereiche endoscout"
 [geschaeftsbereiche.content]
 content = "<p>Einkauf, Logistik und Abwicklung ambulanter Eingriffe individuell auf Ihre Bedürfnisse abgestimmt. Wir unterstützen Sie als Full-Service-Dienstleister<br>von der Beschaffung bis hin zur Abrechnung bei Ihrer täglichen Arbeit,<br>damit Sie sich wieder auf das Wesentliche konzentrieren können, Ihre Patienten.</p><p>Wir kooperieren mit allen namhaften Herstellern und greifen somit bei der Materialversorgung auf ein umfangreiches Produktportfolio zurück.</p><p><strong>Vorteile endocare:</strong></p><ul><li><p>Ein zentraler Ansprechpartner von der Beschaffung bis hin zur Abrechnung</p></li><li><p>Reduzierte Kapitalbindung (Material)</p></li><li><p>Großes, herstellerunabhängiges Produktportfolio</p></li><li><p>Reduziertes Risiko bei Retaxationen</p></li><li><p>Wir befreien Sie von zeitintensiven Beschaffungsprozessen und Klärungsschleifen, damit Sie sich wieder auf das Wesentliche konzentrieren können, Ihre Patienten.</p></li></ul><p>Gerne stehen wir Ihnen für ein persönliches Gespräch zur Verfügung.</p>"
