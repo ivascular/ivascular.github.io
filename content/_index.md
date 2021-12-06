@@ -35,7 +35,7 @@ content = "Produktinformationen, Produktkatalog und vieles mehr finden Sie hier 
 farbe = "blue:rgb(12,49,131)"
 [content50.hintergrund]
 bild = "/uploads/mediathek_icon.png"
-farbe = "magenta:rgb(228,19,112)"
+farbe = "grau:rgb(233,233,233)"
 [content50.link]
 link = "mediathek.md"
 linkbeschriftung = "weiterlesen"
