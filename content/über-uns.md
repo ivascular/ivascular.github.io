@@ -10,9 +10,9 @@ farbe_link_button = ""
 link = ""
 link_button_qm = false
 [endoscout_infoblock.content]
-content = "<p>endoscout mit Firmensitz in Freiburg ist ein innovatives und global vernetztes Unternehmen im Bereich der Medizintechnik. Das Unternehmen gliedert sich in die beiden Geschäftsbereiche endotrade und endocare.</p><p>Mit unserem Engagement für wissenschaftliche Projekte und unseren Dienstleistungen im Bereich der ambulanten Versorgung verstehen wir uns als Bindeglied zwischen Industrie und unseren Kunden.</p><p>Die Vision „endoscout“ spiegelt sich dabei in unserer Unternehmensphilosophie deutlich wider. Unser Antrieb ist die Suche nach Lösungen auf die täglichen Herausforderungen unserer Kunden durch die Beschreitung neuer, kreativer und intelligenter Wege.</p><p>Unser Ziel ist es Ärzten und Patienten Produkte zur Verfügung zu stellen, um die Behandlungsqualität sowie die Lebensqualität der Patienten nachhaltig zu verbessern.</p>"
+content = "<p class=\"MsoNormal\">Die iVascular GmbH mit Firmensitz in Freiburg ist aus der Übernahme der Firma Endoscout durch unsere spanische Mutter iVascular S.L.U hervorgegangen. Das Unternehmen gliedert sich in die beiden Geschäftsbereiche Interventional Products-IP und endocare.</p><p class=\"MsoNormal\">Unser Ziel ist es Ärzten und Patienten Produkte zur Verfügung zu stellen, um die Behandlungsqualität sowie die Lebensqualität der Patienten nachhaltig zu verbessern.</p><p class=\"MsoNormal\">Mit unserem Engagement für wissenschaftliche Projekte und unseren Dienstleistungen im Bereich der ambulanten Versorgung verstehen wir uns als Bindeglied zwischen Industrie und unseren Kunden.</p>"
 [endoscout_infoblock.content.textfarbe]
-farbe = "blue:rgb(12,49,131)"
+farbe = "grau:rgb(233,233,233)"
 [endoscout_infoblock.hintergrundfarbe]
 farbe = ""
 [endoscout_infoblock.titel]
