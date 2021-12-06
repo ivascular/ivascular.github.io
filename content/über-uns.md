@@ -14,12 +14,12 @@ content = "<p>endoscout mit Firmensitz in Freiburg ist ein innovatives und globa
 [endoscout_infoblock.content.textfarbe]
 farbe = "blue:rgb(12,49,131)"
 [endoscout_infoblock.hintergrundfarbe]
-farbe = "mint:rgb(191,222,227)"
+farbe = ""
 [endoscout_infoblock.titel]
 titel = "Wer wir sind"
 untertitel = "Endoscout"
 [endoscout_infoblock.titel.textfarbe]
-farbe = "magenta:rgb(228,19,112)"
+farbe = "grau:rgb(233,233,233)"
 [menu.main]
 weight = 3
 [menu.mobil]
