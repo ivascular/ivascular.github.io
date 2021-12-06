@@ -66,7 +66,7 @@ content = "<p>Einkauf, Logistik und Abwicklung ambulanter Eingriffe individuell 
 [geschaeftsbereiche.content.textfarbe]
 farbe = "weiss:rgb(255,255,255)"
 [geschaeftsbereiche.hintergrundfarbe]
-farbe = "mint:rgb(191,222,227)"
+farbe = "magenta:rgb(228,19,112)"
 [geschaeftsbereiche.titel]
 titel = "### ENDOCARE"
 [geschaeftsbereiche.titel.textfarbe]
