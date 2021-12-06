@@ -56,7 +56,7 @@ content = "<p>endoscout mit Firmensitz in Freiburg ist ein innovatives und globa
 [infoblock_endoscout.content.textfarbe]
 farbe = "blue:rgb(12,49,131)"
 [infoblock_endoscout.hintergrundfarbe]
-farbe = "mint_hell:rgb(174,204,208)"
+farbe = "grau:rgb(233,233,233)"
 [infoblock_endoscout.titel]
 titel = "WER WIR SIND"
 untertitel = "Endoscout"
@@ -79,7 +79,7 @@ newsitem = "news/2-year mortality EffPac.md"
 [news.hintergrundfarbe]
 farbe = "grau:rgb(233,233,233)"
 [news.textfarbe]
-farbe = "blue:rgb(12,49,131)"
+farbe = "black:rgb(0,0,0)"
 [news.titelfarbe]
 farbe = "magenta:rgb(228,19,112)"
 [[produktbereiche]]
