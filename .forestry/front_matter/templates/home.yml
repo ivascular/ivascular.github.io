@@ -227,49 +227,6 @@ fields:
     - type: text
       name: linkbeschriftung
       label: Link-Beschriftung
-- type: field_group
-  name: content25_2
-  label: Events
-  fields:
-  - type: field_group
-    name: hintergrund
-    label: Hintergrund
-    fields:
-    - type: include
-      template: endoscoutcolors
-      label: Farbe
-      name: farbe
-    - type: file
-      name: bild
-      label: Bild
-  - type: text
-    name: titel
-    label: Titel
-  - type: select
-    name: event
-    config:
-      source:
-        type: pages
-        section: events
-    label: Event
-  - type: field_group
-    name: link
-    label: Link
-    fields:
-    - type: include
-      name: linkfarbe
-      label: Linkfarbe
-      template: linkfarbe
-    - type: select
-      name: link
-      config:
-        source:
-          type: pages
-          section: pages
-      label: Link
-    - type: text
-      name: linkbeschriftung
-      label: Link-Beschriftung
 - name: seo
   type: include
   config: {}
