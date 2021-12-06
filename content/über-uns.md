@@ -55,7 +55,7 @@ farbe = "grau:rgb(233,233,233)"
 [geschaeftsbereiche.hintergrundfarbe]
 farbe = "blue:rgb(12,49,131)"
 [geschaeftsbereiche.titel]
-titel = "### IP-INTERVENTIONAL PRODUCTS"
+titel = "IP-Interventional Products"
 [geschaeftsbereiche.titel.textfarbe]
 farbe = "weiss:rgb(255,255,255)"
 [[geschaeftsbereiche]]
