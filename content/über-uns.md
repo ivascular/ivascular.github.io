@@ -60,7 +60,7 @@ titel = "### IP-INTERVENTIONAL PRODUCTS"
 farbe = "weiss:rgb(255,255,255)"
 [[geschaeftsbereiche]]
 logos = []
-titel_lang = "[endotrade]Geschäftsbereiche endoscout"
+titel_lang = "[endotrade]Endocare"
 [geschaeftsbereiche.content]
 content = "<p>Einkauf, Logistik und Abwicklung ambulanter Eingriffe individuell auf Ihre Bedürfnisse abgestimmt. Wir unterstützen Sie als Full-Service-Dienstleister<br>von der Beschaffung bis hin zur Abrechnung bei Ihrer täglichen Arbeit,<br>damit Sie sich wieder auf das Wesentliche konzentrieren können, Ihre Patienten.</p><p>Wir kooperieren mit allen namhaften Herstellern und greifen somit bei der Materialversorgung auf ein umfangreiches Produktportfolio zurück.</p><p><strong>Vorteile endocare:</strong></p><ul><li><p>Ein zentraler Ansprechpartner von der Beschaffung bis hin zur Abrechnung</p></li><li><p>Reduzierte Kapitalbindung (Material)</p></li><li><p>Großes, herstellerunabhängiges Produktportfolio</p></li><li><p>Reduziertes Risiko bei Retaxationen</p></li><li><p>Wir befreien Sie von zeitintensiven Beschaffungsprozessen und Klärungsschleifen, damit Sie sich wieder auf das Wesentliche konzentrieren können, Ihre Patienten.</p></li></ul><p>Gerne stehen wir Ihnen für ein persönliches Gespräch zur Verfügung.</p>"
 [geschaeftsbereiche.content.textfarbe]
@@ -70,6 +70,6 @@ farbe = "magenta:rgb(228,19,112)"
 [geschaeftsbereiche.titel]
 titel = "### ENDOCARE"
 [geschaeftsbereiche.titel.textfarbe]
-farbe = "grau:rgb(233,233,233)"
+farbe = "weiss:rgb(255,255,255)"
 
 +++
