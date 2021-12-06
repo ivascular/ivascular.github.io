@@ -14,7 +14,7 @@ content = "<p class=\"MsoNormal\">Die iVascular GmbH mit Firmensitz in Freiburg 
 [endoscout_infoblock.content.textfarbe]
 farbe = "magenta:rgb(228,19,112)"
 [endoscout_infoblock.hintergrundfarbe]
-farbe = "weiss:rgb(255,255,255)"
+farbe = "grau:rgb(233,233,233)"
 [endoscout_infoblock.titel]
 titel = "Wer wir sind"
 untertitel = "Endoscout"
