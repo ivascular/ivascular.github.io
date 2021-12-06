@@ -47,15 +47,15 @@ beschriftung = "Jan Kölble"
 content = "<p><strong>Jan Kölble</strong><br>Customer Service <br>0761-458948-12</p><p>j<a href=\"mailto:an.koelble@endoscout.de\" title=\"\">an.koelble@endoscout.de</a></p>"
 [[geschaeftsbereiche]]
 logos = []
-titel_lang = "[endocare]Geschäftsbereiche endoscout"
+titel_lang = "[endocare]IP-INTERVENTIONAL PRODUCTS"
 [geschaeftsbereiche.content]
-content = "<p>Einkauf, Logistik und Abwicklung ambulanter Eingriffe individuell auf Ihre Bedürfnisse abgestimmt. Wir unterstützen Sie als Full-Service-Dienstleister <br>von der Beschaffung bis hin zur Abrechnung bei Ihrer täglichen Arbeit, <br>damit Sie sich wieder auf das Wesentliche konzentrieren können, Ihre Patienten.</p><p>Wir kooperieren mit allen namhaften Herstellern und greifen somit bei der Materialversorgung auf ein umfangreiches Produktportfolio zurück.</p><p></p><p><strong>Vorteile endocare:</strong></p><ul><li><p>Ein zentraler Ansprechpartner von der Beschaffung bis hin zur Abrechnung</p></li><li><p>Reduzierte Kapitalbindung (Material)</p></li><li><p>Großes, herstellerunabhängiges Produktportfolio</p></li><li><p>Reduziertes Risiko bei Retaxationen</p></li><li><p>Wir befreien Sie von zeitintensiven Beschaffungsprozessen und Klärungsschleifen, damit Sie sich wieder auf das Wesentliche konzentrieren können, Ihre Patienten.</p></li></ul><p>Gerne stehen wir Ihnen für ein persönliches Gespräch zur Verfügung.</p>"
+content = "<p>Neben den Produkten unserer Muttergesellschaft iVascular S.L.U. sind wir exklusiver Vertriebspartner in Deutschland für nachfolgende Hersteller:</p><ul><li><p>Alvimedica</p></li><li><p>TriReme</p></li><li><p>Lifetech</p></li></ul><p>Diese ergänzen das breite Angebot von iVascular und deckt damit die Bedürfnisse für die cardiovaskuläre und peripher vaskuläre Interventionen ab.</p><p>Gerne stehen wir Ihnen bei Fragen oder für eine persönliche<br>Beratung zur Verfügung</p><p>Kontakt</p>"
 [geschaeftsbereiche.content.textfarbe]
-farbe = "weiss:rgb(255,255,255)"
+farbe = "grau:rgb(233,233,233)"
 [geschaeftsbereiche.hintergrundfarbe]
 farbe = "blue:rgb(12,49,131)"
 [geschaeftsbereiche.titel]
-titel = "endocare"
+titel = "### IP-INTERVENTIONAL PRODUCTS"
 [geschaeftsbereiche.titel.textfarbe]
 farbe = "weiss:rgb(255,255,255)"
 [[geschaeftsbereiche]]
