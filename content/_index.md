@@ -77,7 +77,7 @@ farbe = "magenta:rgb(228,19,112)"
 linkbeschriftung = "weiterlesen"
 newsitem = "news/2-year mortality EffPac.md"
 [news.hintergrundfarbe]
-farbe = "mint:rgb(191,222,227)"
+farbe = "grau:rgb(233,233,233)"
 [news.textfarbe]
 farbe = "blue:rgb(12,49,131)"
 [news.titelfarbe]
