@@ -23,7 +23,7 @@ event = "events/linc-2020.md"
 titel = "Messe, Workshops"
 [content25_2.hintergrund]
 bild = ""
-farbe = "mint:rgb(191,222,227)"
+farbe = "magenta:rgb(228,19,112)"
 [content25_2.link]
 link = "veranstaltungen.md"
 linkbeschriftung = "Alle Events anzeigen"
