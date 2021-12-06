@@ -68,7 +68,7 @@ farbe = "weiss:rgb(255,255,255)"
 [geschaeftsbereiche.hintergrundfarbe]
 farbe = "magenta:rgb(228,19,112)"
 [geschaeftsbereiche.titel]
-titel = "### ENDOCARE"
+titel = "Endocare"
 [geschaeftsbereiche.titel.textfarbe]
 farbe = "weiss:rgb(255,255,255)"
 
