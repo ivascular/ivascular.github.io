@@ -12,7 +12,7 @@ link_button_qm = false
 [header.content]
 content = "<p>Sie finden uns das ganze Jahr über auf verschiedenen Veranstaltungen. Interessante Workshops mit hochkarätigen Referenten, bieten Ihnen Einblicke in die Praxis.</p>"
 [header.content.textfarbe]
-farbe = "blue:rgb(12,49,131)"
+farbe = "black:rgb(0,0,0)"
 [header.hintergrundfarbe]
 farbe = "grau:rgb(233,233,233)"
 [header.titel]
