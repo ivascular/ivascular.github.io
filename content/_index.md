@@ -54,7 +54,7 @@ link_button_qm = true
 [infoblock_endoscout.content]
 content = "<p>endoscout mit Firmensitz in Freiburg ist ein innovatives und global vernetztes Unternehmen im Bereich der Medizintechnik.</p><p>Das Unternehmen gliedert sich in die beiden Geschäftsbereiche endotrade, dem Direktvertrieb interventioneller Produkte, sowie dem Geschäftsbereich endocare in dem endoscout als Full-Service-Dienstleister in den Bereichen Einkauf, Logistik und Abrechnung auf dem Gebiet der ambulanten Behandlung tätig ist.</p>"
 [infoblock_endoscout.content.textfarbe]
-farbe = "blue:rgb(12,49,131)"
+farbe = "black:rgb(0,0,0)"
 [infoblock_endoscout.hintergrundfarbe]
 farbe = "grau:rgb(233,233,233)"
 [infoblock_endoscout.titel]
