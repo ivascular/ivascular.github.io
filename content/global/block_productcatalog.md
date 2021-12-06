@@ -8,7 +8,7 @@ linkbeschriftung = "jetzt entdecken"
 titel = "<p>Produkt<br>Katalog</p>"
 title = ""
 [hintergrundfarbe]
-farbe = "mint:rgb(191,222,227)"
+farbe = "grau:rgb(233,233,233)"
 [linkfarbe]
 linkfarbe = "orange"
 [ueberblick]
