@@ -18,7 +18,7 @@ linkfarbe = "weiss"
 [menu.main]
 weight = 6
 [menu.mobil]
-weight = 6
+weight = 5
 [titel]
 titel = "Kontakt"
 [titel.textfarbe]

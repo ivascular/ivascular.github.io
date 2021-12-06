@@ -23,7 +23,7 @@ farbe = "magenta:rgb(228,19,112)"
 [menu.main]
 weight = 3
 [menu.mobil]
-weight = 5
+weight = 4
 [team]
 content = "<p>Unser Team mit langjähriger Erfahrung im Medizintechnik-Bereich steht Ihnen gerne bei all Ihren Fragen zur Seite. Flexible und schnelle Lösungen sind unsere Stärke, sprechen Sie uns einfach an.</p><p><img src=\"/uploads/2019/05/03/elefanten.png\"></p>"
 untertitel = "ivascular"

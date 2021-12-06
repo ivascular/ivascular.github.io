@@ -6,7 +6,7 @@ title = "Mediathek"
 [menu.main]
 weight = 4
 [menu.mobil]
-weight = 4
+weight = 3
 [[bereiche]]
 titel = "Publikationen"
 [[bereiche.abschnitte]]
