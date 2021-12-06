@@ -14,7 +14,7 @@ content = "<p>Sie finden uns das ganze Jahr über auf verschiedenen Veranstaltun
 [header.content.textfarbe]
 farbe = "blue:rgb(12,49,131)"
 [header.hintergrundfarbe]
-farbe = "mint:rgb(191,222,227)"
+farbe = "grau:rgb(233,233,233)"
 [header.titel]
 titel = "Veranstaltungen"
 untertitel = "Endoscout"
