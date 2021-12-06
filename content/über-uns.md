@@ -62,14 +62,14 @@ farbe = "weiss:rgb(255,255,255)"
 logos = ["/uploads/2019/05/02/trireme.png", "/uploads/2019/05/02/lifetech.png", "/uploads/2019/05/02/ivascular-logo-1.png", "/uploads/2019/05/02/alvimedica.png"]
 titel_lang = "[endotrade]Geschäftsbereiche endoscout"
 [geschaeftsbereiche.content]
-content = "<p>Direktvertrieb interventioneller Produkte</p><p>endoscout ist exclusiver Vertriebspartner in Deutschland für <br>nachfolgende Hersteller:</p><ul><li><p>Alvimedica</p></li><li><p>iVascular</p></li><li><p>TriReme</p></li><li><p>Lifetech</p></li></ul><p>Werfen Sie doch einen Blick in unser</p><p>Produktportfolio</p><p>Gerne stehen wir Ihnen bei Fragen oder für eine persönliche <br>Beratung zur Verfügung</p><p>Kontakt</p>"
+content = "<p>Einkauf, Logistik und Abwicklung ambulanter Eingriffe individuell auf Ihre Bedürfnisse abgestimmt. Wir unterstützen Sie als Full-Service-Dienstleister<br>von der Beschaffung bis hin zur Abrechnung bei Ihrer täglichen Arbeit,<br>damit Sie sich wieder auf das Wesentliche konzentrieren können, Ihre Patienten.</p><p>Wir kooperieren mit allen namhaften Herstellern und greifen somit bei der Materialversorgung auf ein umfangreiches Produktportfolio zurück.</p><p><strong>Vorteile endocare:</strong></p><ul><li><p>Ein zentraler Ansprechpartner von der Beschaffung bis hin zur Abrechnung</p></li><li><p>Reduzierte Kapitalbindung (Material)</p></li><li><p>Großes, herstellerunabhängiges Produktportfolio</p></li><li><p>Reduziertes Risiko bei Retaxationen</p></li><li><p>Wir befreien Sie von zeitintensiven Beschaffungsprozessen und Klärungsschleifen, damit Sie sich wieder auf das Wesentliche konzentrieren können, Ihre Patienten.</p></li></ul><p>Gerne stehen wir Ihnen für ein persönliches Gespräch zur Verfügung.</p>"
 [geschaeftsbereiche.content.textfarbe]
-farbe = "blue:rgb(12,49,131)"
+farbe = "weiss:rgb(255,255,255)"
 [geschaeftsbereiche.hintergrundfarbe]
 farbe = "mint:rgb(191,222,227)"
 [geschaeftsbereiche.titel]
-titel = "endotrade"
+titel = "### ENDOCARE"
 [geschaeftsbereiche.titel.textfarbe]
-farbe = "blue:rgb(12,49,131)"
+farbe = "grau:rgb(233,233,233)"
 
 +++
