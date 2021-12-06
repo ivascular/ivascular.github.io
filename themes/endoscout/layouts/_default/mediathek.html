@@ -1,0 +1,45 @@
+{{ define "main" }} {{ $currentPage := . }}
+<div class="subpage mediathek">
+  <div class="ui container standard">
+    <div class="pc">
+    {{ partial "productcatalog.html" . }}
+    </div>
+    {{range .Params.bereiche}}
+    <div class="sec">
+      <h2>{{.titel}}</h2>
+      <div class="subsecs">
+        {{range .abschnitte}}
+          <div class="subsec">
+            {{with .titel}}
+              <h3>{{.}}</h3>
+            {{end}}
+            <div class="files">
+              {{range .dateien}}
+                <div>
+                  {{$lnk:=.datei}}
+                  {{if ne .externer_link ""}}{{if ne .externer_link nil}}{{$lnk = .externer_link}}{{end}}{{end}}
+                  <div class="icontitle">
+                    <i class="file {{.icon}} icon outline"></i>
+                    <div class="filetitel">
+                      <a target="_blank" href="{{$lnk }}">
+                        <h4>{{.titel}}</h4>
+                        {{with .beschreibung}}
+                          <div>{{.|safeHTML}}</div>
+                        {{end}}
+                      </a>
+                    </div>
+                  </div>
+                    <a class="morebutton rot" target="_blank" href="{{$lnk }}">
+                        <div class="txt">öffnen</div>
+                    </a>
+                </div>
+              {{end}}
+            </div>
+          </div>
+        {{end}}
+      </div>
+    </div>
+    {{end}}
+  </div>
+</div>
+{{ end }}

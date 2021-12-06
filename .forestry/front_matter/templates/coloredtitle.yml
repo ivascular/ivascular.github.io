@@ -1,0 +1,15 @@
+---
+label: ColoredTitle
+hide_body: true
+fields:
+- type: textarea
+  name: titel
+  label: Titel
+  config:
+    wysiwyg: true
+    schema:
+      format: markdown
+- type: include
+  name: textfarbe
+  label: Textfarbe
+  template: textfarbe

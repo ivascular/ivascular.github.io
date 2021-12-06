@@ -1,0 +1,83 @@
+---
+label: Mediathek
+hide_body: true
+fields:
+- name: bereiche
+  type: field_group_list
+  fields:
+  - name: titel
+    type: text
+    config:
+      required: false
+    label: Titel
+  - name: abschnitte
+    type: field_group_list
+    fields:
+    - name: titel
+      type: text
+      config:
+        required: false
+      label: Titel
+    - name: dateien
+      type: field_group_list
+      fields:
+      - name: icon
+        type: select
+        default: []
+        config:
+          required: false
+          options:
+          - pdf
+          - powerpoint
+          - excel
+          - image
+          - video
+          - alternate
+          source:
+            type: simple
+            section: 
+            file: 
+            path: 
+        label: Icon
+      - name: titel
+        type: text
+        config:
+          required: false
+        label: Titel
+      - name: beschreibung
+        type: textarea
+        default: ''
+        config:
+          required: false
+          wysiwyg: true
+          schema:
+            format: html-blocks
+        label: Beschreibung
+      - name: datei
+        type: file
+        config:
+          maxSize: 250
+        label: Datei
+      - name: externer_link
+        type: text
+        config:
+          required: false
+        label: Externer Link
+        description: Alternativ zu Datei
+      config:
+        min: 
+        max: 
+        labelField: 
+      label: Dateien
+    config:
+      min: 
+      max: 
+      labelField: 
+    label: Abschnitte
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Bereiche
+pages:
+- content/mediathek.md

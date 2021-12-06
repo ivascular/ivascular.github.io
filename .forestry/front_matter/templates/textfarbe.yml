@@ -1,0 +1,12 @@
+---
+label: Textfarbe
+hide_body: true
+fields:
+- type: field_group
+  name: textfarbe
+  label: Textfarbe
+  fields:
+  - type: include
+    name: farbe
+    label: Farbe
+    template: endoscoutcolors

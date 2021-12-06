@@ -1,0 +1,70 @@
+{{ define "main" }} {{ $p := . }}
+<div class="subpage about">
+{{partial "breadcrumb" .}}
+<div class="ui container standard">
+  <div class=" standard">
+    {{with .Params.endoscout_infoblock}}
+  <div class=" c50i50 c2313" {{ printf "style=background:%s" (partial "colorextr" .hintergrundfarbe.farbe) | safeHTMLAttr }}>
+    <div class="content_no_even_odd">
+        <h4>{{.titel.untertitel}}</h4>
+        <h3 {{ printf "style=color:%s" (partial "colorextr" .titel.textfarbe.farbe) | safeHTMLAttr }}>
+          {{.titel.titel}}
+        </h3>
+        <div {{ printf "style=color:%s" (partial "colorextr" .content.textfarbe.farbe) | safeHTMLAttr }}>
+          {{.content.content|safeHTML}}
+        </div>
+        {{if eq .link_button_qm true}}
+        <a class="morebutton" href="{{relref $p .link }}">
+            <div class="iconw"><i class="chevron right icon"></i></div>
+            <div class="txt">{{.beschriftung_link_button}}</div>
+        </a>
+        {{end}}
+    </div>
+    <div style="background:url({{partial "imgUrl" (dict "img" .bild "params" "c_scale,f_auto,w_800" )}}) center center no-repeat; background-size:cover;">
+    </div>
+  </div>
+  {{end}}
+  </div>
+  <div class=" c50i50">
+    {{range .Params.geschaeftsbereiche}}
+      <div class="content_no_even_odd" {{ printf "style=background:%s" (partial "colorextr" .hintergrundfarbe.farbe) | safeHTMLAttr }}>
+        <div  {{ printf "style=color:%s" (partial "colorextr" .content.textfarbe.farbe) | safeHTMLAttr }}>
+          <h4>{{replaceRE "\\[.+\\]" "" .titel_lang}}</h4>
+          <h3 {{ printf "style=color:%s" (partial "colorextr" .titel.textfarbe.farbe) | safeHTMLAttr }}>
+            {{.titel.titel}}
+          </h3>
+          <div {{ printf "style=color:%s" (partial "colorextr" .content.textfarbe.farbe) | safeHTMLAttr }}>
+            {{.content.content|safeHTML}}
+          </div>
+          <div class="logos">
+            {{range .logos}}
+            <div style="background:url({{partial "imgUrl" (dict "img" . "params" "c_scale,f_auto,w_300" )}}) center center no-repeat; background-size:contain;"></div>
+            {{end}}
+          </div>
+        </div>
+      </div>
+    {{end}}
+  </div>
+  <div class=" c50i50 team">
+    {{with .Params.team}}
+      <div class="content_no_even_odd" {{ printf "style=background:%s" (partial "colorextr" .hintergrundfarbe.farbe) | safeHTMLAttr }}>
+        <h4>{{replaceRE "\\[.+\\]" "" .untertitel}}</h4>
+        <h3 {{ printf "style=color:%s" (partial "colorextr" .titel.textfarbe.farbe) | safeHTMLAttr }}>
+          {{.titel.titel}}
+        </h3>
+        <div class="ct">
+          {{.content|safeHTML}}
+        </div>
+        <div class="ma">
+          {{range .mitarbeiter}}
+            <div>
+              {{.content|safeHTML}}
+            </div>
+          {{end}}
+        </div>
+      </div>
+    {{end}}
+  </div>
+</div>
+</div>
+{{ end }}

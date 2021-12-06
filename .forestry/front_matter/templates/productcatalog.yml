@@ -1,0 +1,55 @@
+---
+label: Productcatalog
+hide_body: true
+fields:
+- name: titel
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: html-blocks
+  label: Titel
+- name: content
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: html-blocks
+  label: Content
+- name: linkbeschriftung
+  type: text
+  config:
+    required: false
+  label: Linkbeschriftung
+- name: linkfarbe
+  type: include
+  config: {}
+  template: linkfarbe
+  label: Linkfarbe
+- name: hintergrundfarbe
+  type: include
+  config: {}
+  template: hintergrundfarbe
+  label: Hintergrundfarbe
+- name: bild
+  type: file
+  config:
+    maxSize: 250
+  label: Bild
+- name: katalog
+  type: file
+  config:
+    maxSize: 250
+  label: Katalog
+- name: externer_link
+  type: text
+  config:
+    required: false
+  label: Externer Link
+  description: Alternative zu Datei
+pages:
+- content/global/block_productcatalog.md

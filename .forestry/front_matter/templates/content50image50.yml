@@ -1,0 +1,54 @@
+---
+label: Content50Image50
+hide_body: true
+fields:
+- type: include
+  name: hintergrundfarbe
+  label: Hintergrundfarbe
+  template: hintergrundfarbe
+- type: field_group
+  name: titel
+  label: Titel
+  fields:
+  - type: include
+    name: titel
+    label: Titel
+    template: coloredtitle
+  - name: untertitel
+    type: text
+    config:
+      required: false
+    label: Untertitel
+- type: field_group
+  name: content
+  label: Content
+  fields:
+  - type: include
+    name: content
+    label: Content
+    template: coloredcontent
+- type: boolean
+  name: link_button_qm
+  label: Link-Button?
+- type: text
+  name: beschriftung_link_button
+  label: Beschriftung Link-Button
+- type: select
+  name: link
+  config:
+    source:
+      type: pages
+  label: Link
+- type: select
+  name: farbe_link_button
+  config:
+    source:
+      type: simple
+    options:
+    - rot
+    - orange
+    - mint
+  label: Farbe Link-Button
+- type: file
+  name: bild
+  label: Bild

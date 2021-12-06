@@ -1,0 +1,93 @@
+---
+label: Product
+hide_body: true
+fields:
+- type: text
+  name: title
+  label: Produktname
+  config:
+    required: true
+- name: icons
+  type: field_group_list
+  fields:
+  - name: interne_beschriftung
+    type: text
+    config:
+      required: false
+    label: Interne Beschriftung
+    description: wird nicht auf der Webseite angezeigt, dient nur zur Anzeige im CMS
+  - name: icon
+    type: include
+    config: {}
+    template: iconwithtitle
+    label: Icon
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Icons
+- type: field_group
+  label: Überblick
+  name: ueberblick
+  fields:
+  - type: file
+    name: bild
+    label: Bild
+  - type: file
+    name: icon
+    label: Icon
+  - type: textarea
+    name: content
+    label: Content
+    config:
+      wysiwyg: true
+      schema:
+        format: html-blocks
+- type: field_group_list
+  name: bereiche
+  label: Bereiche
+  fields:
+  - type: text
+    name: titel
+    label: Titel
+  - type: textarea
+    name: content
+    label: Content
+    config:
+      wysiwyg: true
+      schema:
+        format: html-blocks
+  - type: field_group_list
+    name: dateien
+    label: Dateien
+    fields:
+    - type: text
+      name: titel
+      label: Titel
+    - type: text
+      name: beschreibung
+      label: Beschreibung
+    - type: file
+      name: datei
+      label: Datei
+    - name: externer_link
+      type: text
+      config:
+        required: false
+      label: Externer Link
+      description: Alternativ zu Datei
+- name: seo
+  type: include
+  config: {}
+  template: seo
+  label: SEO
+pages:
+- content/produkte/Koronare Gefäßtherapie/Mikrokatheter/navitian.md
+- content/produkte/Periphere Gefäßtherapie/Ballonexpandierbare Stents/p-icover.md
+- content/produkte/Periphere Gefäßtherapie/Ballonkatheter/oceanus_35.md
+- content/produkte/Periphere Gefäßtherapie/Extraktionskatheter/capturer.md
+- content/produkte/Periphere Gefäßtherapie/Selbstexpandierende Stents/ivolution-pro.md
+- content/produkte/Periphere Gefäßtherapie/Selbstexpandierende Stents/ivolution.md
+- content/produkte/Periphere Gefäßtherapie/Selbstexpandierende Stents/nitides.md
+- content/produkte/Periphere Gefäßtherapie/Supportkatheter/sergeant.md
+- content/produkte/Periphere Gefäßtherapie/Vascular Plugs/cera-vascular-plug.md

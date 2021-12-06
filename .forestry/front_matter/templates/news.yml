@@ -1,0 +1,42 @@
+---
+label: News
+hide_body: false
+fields:
+- type: text
+  name: titel
+  label: Titel
+- type: datetime
+  name: datum
+  label: Datum
+  config:
+    date_format: DD.MM.YYYY
+    time_format: " "
+- type: textarea
+  name: zusammenfassung
+  label: Zusammenfassung
+  config:
+    wysiwyg: true
+    schema:
+      format: markdown
+- name: seo
+  type: include
+  config: {}
+  template: seo
+  label: SEO
+pages:
+- content/news/2-year mortality EffPac.md
+- content/news/Analysis of German Insurance Data Shows No Long-Term Increased Mortality
+  With Paclitaxel-Based Devices.md
+- content/news/BVMed Paclitaxel-beschichtete Ballonkatheter und Stents bleiben eine
+  primäre Therapieoption.md
+- 'content/news/EFFPAC: 24-month outcomes.md'
+- 'content/news/EFFPAC: 42-month outcomes.md'
+- content/news/Empfehlungen BfArM DCB DES.md
+- content/news/Incidental FIndings Erectyle Dysfunction.md
+- content/news/Meta-Analysis Observes Increased Mortality.md
+- content/news/Mortality Not Correlated WithPaclitaxel Exposure.md
+- content/news/Novel paclitaxel-nano-coated balloon achieves lower incidence of restenosis
+  than plain balloon angioplasty at two years.md
+- content/news/Risk of Death Following Application.md
+- content/news/TINTIN 1-year outcomes..md
+- content/news/Zweitmeinung Amputation diabetisches Fusssyndrom.md

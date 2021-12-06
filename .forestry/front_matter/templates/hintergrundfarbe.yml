@@ -1,0 +1,12 @@
+---
+label: Hintergrundfarbe
+hide_body: true
+fields:
+- type: field_group
+  name: hintergrundfarbe
+  label: Hintergrundfarbe
+  fields:
+  - type: include
+    name: farbe
+    label: Farbe
+    template: endoscoutcolors

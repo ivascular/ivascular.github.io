@@ -1,0 +1,19 @@
+{{ $t := .Site.GetPage "block_productcatalog.md" }} {{ $currentPage := . }}
+<div class="ui container pcatalog">
+  <div class="ptxt"  {{ printf "style=background:%s" (partial "colorextr" $t.Params.hintergrundfarbe.farbe) | safeHTMLAttr }}>
+      {{$lnk:=$t.Params.katalog}}
+      {{if ne $t.Params.externer_link ""}}{{if ne $t.Params.externer_link nil}}{{$lnk = $t.Params.externer_link}}{{end}}{{end}}
+     
+    <a href="{{with $lnk}}{{.}}{{end}}" target="_blank">
+        <h3>{{$t.Params.titel|safeHTML}}</h3>
+      </a>
+      <div>
+        {{$t.Params.content|safeHTML}}
+      </div>
+      <a class="morebutton" target="_blank" href="{{$lnk}}">
+        <div class="iconw"><i class="chevron right icon"></i></div>
+        <div class="txt">{{$t.Params.linkbeschriftung}}</div>
+    </a>
+  </div>
+  <div class="pimg" style="background:url({{partial "imgUrl" (dict "img" $t.Params.bild "params" "c_scale,f_auto,w_800" )}}) center center no-repeat;"></div>
+</div>

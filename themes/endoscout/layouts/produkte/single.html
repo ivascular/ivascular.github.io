@@ -1,0 +1,57 @@
+{{ define "main" }} {{ $currentPage := . }}
+<div class="subpage product">
+{{partial "breadcrumb" .}}
+  <div class="ui container standard">
+    <div class="phc">
+      <div class="pimg" style="background:url({{partial "imgUrl" (dict "img" .Params.ueberblick.bild "params" "c_scale,w_600,q_90,f_auto" )}}) center center no-repeat;"></div>
+      <div class="content"  style="{{with .Params.ueberblick.icon}}background:url({{partial "imgUrl" (dict "img" . "params" "c_scale,f_auto,h_100" )}}) right 2rem top 2rem no-repeat;{{end}}">
+        <h2>
+            {{replaceRE "\\[.+\\]" "" .Params.menu.main.parent}}
+        </h2>
+        <h1>
+            {{replaceRE "\\[.+\\]" "" .Params.title}}
+        </h1>
+        <div>
+          {{.Params.ueberblick.content|safeHTML}}
+        </div>
+      </div>
+    </div>
+    {{range .Params.bereiche}}
+      <div class="psec">
+        <h3>{{.titel}}</h3>
+        {{with .content}}
+          <div class="content">
+            {{.|safeHTML}}
+          </div>
+        {{end}}
+        {{with .dateien}}
+          <div class="files">
+          {{range .}}
+            <div>
+              <div>
+                <i class="icon {{if in .datei "pdf"}}file pdf outline{{else}}file alternate outline{{end}}"></i>
+                {{$lnk:=.datei}}
+                  {{if ne .externer_link ""}}{{if ne .externer_link nil}}{{$lnk = .externer_link}}{{end}}{{end}}
+                <div class="filetitel">
+                    <a target="_blank" href="{{$lnk }}">
+                  <h4>{{.titel}}</h4>
+                  {{with .beschreibung}}
+                    <h5>{{.}}</h5>
+                  {{end}}
+                  </a>
+                </div>
+              </div>
+              <div>
+                  <a class="morebutton rot" target="_blank" href="{{$lnk }}">
+                      <div class="txt">öffnen</div>
+                  </a>
+              </div>
+            </div>
+          {{end}}
+          </div>
+        {{end}}
+      </div>
+    {{end}}
+  </div>
+</div>
+{{ end }}

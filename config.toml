@@ -1,0 +1,4 @@
+baseURL = "https://www.endoscout.de"
+languageCode = "de-de"
+theme = "endoscout"
+title = "endoscout"

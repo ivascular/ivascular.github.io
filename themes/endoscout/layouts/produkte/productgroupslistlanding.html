@@ -1,0 +1,41 @@
+{{ define "main" }} {{ $currentPage := . }}
+<div class="subpage productgroupslist landing">
+  <div class="ui container standard">
+    {{with .Params.header}}
+    <div class="header" {{ printf "style=background:%s %s" (partial "colorextr" .hintergrundfarbe.farbe) | safeHTMLAttr }}>
+      <div style="{{with .hintergrundbild}}background:url({{partial "imgUrl" (dict "img" . "params" "c_scale,f_auto,h_200" )}}) right 1rem center no-repeat; background-size:auto 90%;{{end}}">
+        <div class="ct" {{ printf "style=color:%s %s" (partial "colorextr" .titelfarbe.farbe) | safeHTMLAttr }}>
+          <h1 {{ printf "style=color:%s %s" (partial "colorextr" .titelfarbe.farbe) | safeHTMLAttr }}>{{$currentPage.Params.title}}</h1>
+        </div>
+      </div>
+    </div>
+    {{end}}
+    <div class="ui two column stackable grid bereiche">
+      {{ range $idx,$b := .Params.bereiche}}
+        <div class="column">
+          <div class="pgroup idx{{$idx}}">
+            <a href="{{relref $currentPage $b.link }}">
+              <div class="img" style="{{with $b.bild}}background:url({{partial "imgUrl" (dict "img" . "params" "c_scale,f_auto,w_600" )}}) center center no-repeat; background-size:auto 90%;{{end}}"></div>
+            </a>
+            <div class="titleAndLink">
+              <a href="{{relref $currentPage $b.link }}">
+                <h2>{{$b.titel}}</h2>
+              </a>
+              {{if eq $idx 0}}
+              <a class="morebutton" href="{{relref $currentPage $b.link }}">
+                <div class="txt">{{$b.linkbeschriftung}}</div>
+            </a>
+              {{else}}
+              <a class="morebutton rot" href="{{relref $currentPage $b.link }}">
+                <div class="txt">{{$b.linkbeschriftung}}</div>
+            </a>
+              {{end}}
+            </div>
+          </div>
+        </div>
+      {{end}}
+    </div>
+  </div>
+  {{ partial "productcatalog.html" . }}
+</div>
+{{ end }}

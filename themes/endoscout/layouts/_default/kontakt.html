@@ -1,0 +1,28 @@
+{{ define "main" }} {{ $p := . }}
+<div class="subpage kontakt">
+{{partial "breadcrumb" .}}
+<div class="ui container standard">
+  <div class=" standard">
+    {{with .Params}}
+  <div class=" c50i50 c2313" {{ printf "style=background:%s" (partial "colorextr" .hintergrund.farbe) | safeHTMLAttr }}>
+      <div class="ui 16:9 embed autoplay" data-url="https://www.openstreetmap.org/export/embed.html?bbox=4.218750000000001%2C46.29381556233369%2C11.513671875000002%2C49.62850392384226&amp;layer=mapnik&amp;marker=47.9880834535749%2C7.8662109375">
+          </div>
+    <div class="content_no_even_odd" style="background:url({{partial "imgUrl" (dict "img" .hintergrund.bild "params" "" )}}) no-repeat;">
+        <h4>{{.titel.untertitel}}</h4>
+        <h3 {{ printf "style=color:%s" (partial "colorextr" .titel.textfarbe.farbe) | safeHTMLAttr }}>
+          {{.titel.titel}}
+        </h3>
+        <div {{ printf "style=color:%s" (partial "colorextr" .content.textfarbe.farbe) | safeHTMLAttr }}>
+          {{.content.content|safeHTML}}
+        </div>
+        <a class="morebutton {{.link.linkfarbe.linkfarbe}}" href="{{.link.link }}">
+            <div class="iconw"><i class="chevron right icon"></i></div>
+            <div class="txt">{{.link.linkbeschriftung}}</div>
+        </a>
+    </div>
+  </div>
+  </div>
+  {{end}}
+</div>
+</div>
+{{ end }}

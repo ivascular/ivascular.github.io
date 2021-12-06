@@ -1,0 +1,62 @@
+---
+label: ProductList
+hide_body: true
+fields:
+- name: title
+  type: text
+  config:
+    required: false
+  label: Titel
+- name: header
+  type: field_group
+  config: {}
+  fields:
+  - name: hintergrundfarbe
+    type: include
+    config: {}
+    template: hintergrundfarbe
+    label: Hintergrundfarbe
+  - name: hintergrundbild
+    type: file
+    config:
+      maxSize: 250
+    label: Hintergrundbild
+  - name: titelfarbe
+    type: field_group
+    config: {}
+    fields:
+    - name: farbe
+      type: include
+      config: {}
+      template: endoscoutcolors
+      label: Farbe
+    label: Titelfarbe
+  label: Header
+- name: products
+  type: list
+  config:
+    use_select: true
+    min: 
+    max: 
+    source:
+      type: pages
+      section: products
+  label: Products
+- name: seo
+  type: include
+  config: {}
+  template: seo
+  label: SEO
+pages:
+- content/produkte/Koronare Gefäßtherapie/Ballonexpandierbare Stents/liste.md
+- content/produkte/Koronare Gefäßtherapie/Ballonkatheter/liste.md
+- content/produkte/Koronare Gefäßtherapie/Extraktionskatheter/liste.md
+- content/produkte/Koronare Gefäßtherapie/Medikamentenbeschichtete Ballonkatheter/liste.md
+- content/produkte/Koronare Gefäßtherapie/Mikrokatheter/liste.md
+- content/produkte/Periphere Gefäßtherapie/Ballonexpandierbare Stents/liste.md
+- content/produkte/Periphere Gefäßtherapie/Ballonkatheter/liste.md
+- content/produkte/Periphere Gefäßtherapie/Extraktionskatheter/liste.md
+- content/produkte/Periphere Gefäßtherapie/Medikamentenbeschichtete Ballonkatheter/liste.md
+- content/produkte/Periphere Gefäßtherapie/Selbstexpandierende Stents/liste.md
+- content/produkte/Periphere Gefäßtherapie/Supportkatheter/liste.md
+- content/produkte/Periphere Gefäßtherapie/Vascular Plugs/liste.md

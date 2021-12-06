@@ -1,0 +1,41 @@
+{{ define "main" }} {{ $currentPage := . }}
+<div class="subpage productgroupslist">
+    {{partial "breadcrumb" .}}
+  <div class="ui container standard">
+    {{with .Params.header}}
+    <div class="header" {{ printf "style=background:%s %s" (partial "colorextr" .hintergrundfarbe.farbe) | safeHTMLAttr }}>
+      <div style="{{with .hintergrundbild}}background:url({{partial "imgUrl" (dict "img" . "params" "c_scale,f_auto,h_200" )}}) right 1rem center no-repeat; background-size:auto 90%;{{end}}">
+        <div class="ct" {{ printf "style=color:%s %s" (partial "colorextr" .titelfarbe.farbe) | safeHTMLAttr }}>
+          <h1 {{ printf "style=color:%s %s" (partial "colorextr" .titelfarbe.farbe) | safeHTMLAttr }}>{{$currentPage.Params.title}}</h1>
+        </div>
+      </div>
+    </div>
+    {{end}}
+    <div class="ui two column stackable grid">
+      {{range .Params.bereiche}}
+        <div class="column">
+          <div class="pgroup" {{ printf "style=border-color:%s" (partial "colorextr" $currentPage.Params.header.hintergrundfarbe.farbe) | safeHTMLAttr }}>
+            <a href="{{with .link}}{{relref $currentPage . }}{{end}}">
+              {{if eq $currentPage.Params.title "Produkte"}}
+                <div class="img" style="{{with .bild}}background:url({{partial "imgUrl" (dict "img" . "params" "c_scale,f_auto,w_600" )}}) center center no-repeat; background-size:auto 90%;{{end}}"></div>
+              {{else}}
+              <div class="img" style="{{with .bild}}background:url({{partial "imgUrl" (dict "img" . "params" "c_scale,f_auto,w_600" )}}) center center no-repeat; background-size:cover;{{end}}"></div>
+              {{end}}
+            </a>
+            <div class="titleAndLink" {{ printf "style=background:%s" (partial "colorextr" $currentPage.Params.header.hintergrundfarbe.farbe) | safeHTMLAttr }}>
+              <a href="{{with .link}}{{relref $currentPage . }}{{end}}">
+                <h2 {{ printf "style=color:%s" (partial "colorextr" $currentPage.Params.header.titelfarbe.farbe) | safeHTMLAttr }}>{{.titel}}</h2>
+              </a>
+              
+              <a class="morebutton {{$currentPage.Params.linkfarbe.linkfarbe}}" href="{{with .link}}{{relref $currentPage . }}{{end}}">
+                  <div class="txt">{{.linkbeschriftung}}</div>
+              </a>
+            </div>
+          </div>
+        </div>
+      {{end}}
+    </div>
+  </div>
+  {{ partial "productcatalog.html" . }}
+</div>
+{{ end }}

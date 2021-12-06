@@ -1,0 +1,83 @@
+---
+label: ProductLanding
+hide_body: true
+fields:
+- name: title
+  type: text
+  config:
+    required: false
+  label: Titel
+- name: header
+  type: field_group
+  config: {}
+  fields:
+  - name: hintergrundfarbe
+    type: include
+    config: {}
+    template: hintergrundfarbe
+    label: Hintergrundfarbe
+  - name: hintergrundbild
+    type: file
+    config:
+      maxSize: 250
+    label: Hintergrundbild
+  - name: titelfarbe
+    type: field_group
+    config: {}
+    fields:
+    - name: farbe
+      type: include
+      config: {}
+      template: endoscoutcolors
+      label: Farbe
+    label: Titelfarbe
+  label: Header
+- name: bereiche
+  type: field_group_list
+  fields:
+  - name: titel
+    type: text
+    config:
+      required: false
+    label: Titel
+  - name: link
+    type: select
+    default: []
+    config:
+      required: false
+      options: []
+      source:
+        type: pages
+        section: products
+        file: 
+        path: 
+    label: Link
+  - name: linkbeschriftung
+    type: text
+    config:
+      required: false
+    label: Linkbeschriftung
+  - name: bild
+    type: file
+    config:
+      maxSize: 250
+    label: Bild
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Bereiche
+- name: linkfarbe
+  type: include
+  config: {}
+  template: linkfarbe
+  label: Linkfarbe
+- name: seo
+  type: include
+  config: {}
+  template: seo
+  label: SEO
+pages:
+- content/produkte/Koronare Gefäßtherapie/liste.md
+- content/produkte/Periphere Gefäßtherapie/liste.md
+- content/produkte/produkte.md

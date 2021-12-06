@@ -1,0 +1,19 @@
+---
+label: Linkfarbe
+hide_body: true
+fields:
+- type: field_group
+  name: linkfarbe
+  label: Linkfarbe
+  fields:
+  - type: select
+    name: linkfarbe
+    config:
+      source:
+        type: simple
+      options:
+      - rot
+      - orange
+      - mint
+      - weiss
+    label: Linkfarbe

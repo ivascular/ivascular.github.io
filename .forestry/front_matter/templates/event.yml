@@ -1,0 +1,44 @@
+---
+label: Event
+hide_body: false
+fields:
+- name: startseite
+  type: boolean
+  label: Startseite?
+- type: datetime
+  name: monat
+  label: Monat
+  config:
+    date_format: MMM YYYY
+    time_format: " "
+- type: text
+  name: title
+  label: Titel
+- type: textarea
+  name: ort_und_zeitangabe
+  label: Ort und Zeitangabe
+  config:
+    wysiwyg: true
+    schema:
+      format: html-blocks
+- name: zusammenfassung
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: html-blocks
+  label: Zusammenfassung
+- name: seo
+  type: include
+  config: {}
+  template: seo
+  label: SEO
+pages:
+- content/events/3-dga-interventionskongress-und-48-jahrestagung-der-deutschen-gesellschaft-für-angiologie-gesellschaft-für-gefässmedizin-e-v.md
+- content/events/34-gms-gefässmedizinisches-symposium-berlin.md
+- content/events/4.dga-interventionskongress-und-49.jahrestagung-der-deutschen-gesellschaft-fur-angiologie.md
+- content/events/50.jahrestagung-der-deutschen-gesellschaft-fur-angiologie.md
+- content/events/goeast-conference.md
+- content/events/linc-2020.md

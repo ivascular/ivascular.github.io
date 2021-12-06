@@ -1,0 +1,119 @@
+---
+label: About
+hide_body: true
+fields:
+- name: endoscout_infoblock
+  type: field_group
+  config: {}
+  fields:
+  - name: content
+    type: include
+    config: {}
+    template: content50image50
+    label: content
+  label: Endoscout Infoblock
+- name: geschaeftsbereiche
+  type: field_group_list
+  fields:
+  - name: titel_lang
+    type: text
+    config:
+      required: false
+    label: Titel lang
+  - name: titel
+    type: field_group
+    config: {}
+    fields:
+    - name: titel
+      type: include
+      config: {}
+      template: coloredtitle
+      label: Titel
+    label: Titel
+  - name: content
+    type: field_group
+    config: {}
+    fields:
+    - name: content
+      type: include
+      config: {}
+      template: coloredcontent
+      label: Content
+    label: Content
+  - name: hintergrundfarbe
+    type: include
+    config: {}
+    template: hintergrundfarbe
+    label: Hintergrundfarbe
+  - name: logos
+    type: image_gallery
+    config: {}
+    label: Logos
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Geschäftsbereiche
+- name: team
+  type: field_group
+  config: {}
+  fields:
+  - name: hintergrundfarbe
+    type: include
+    config: {}
+    template: hintergrundfarbe
+    label: Hintergrundfarbe
+  - name: untertitel
+    type: text
+    config:
+      required: false
+    label: Untertitel
+  - name: titel
+    type: field_group
+    config: {}
+    fields:
+    - name: titel
+      type: include
+      config: {}
+      template: coloredtitle
+      label: Titel
+    label: Titel
+  - name: content
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: true
+      schema:
+        format: html-blocks
+    label: Content
+  - name: mitarbeiter
+    type: field_group_list
+    fields:
+    - name: beschriftung
+      type: text
+      config:
+        required: false
+      label: Beschriftung
+    - name: content
+      type: textarea
+      default: ''
+      config:
+        required: false
+        wysiwyg: true
+        schema:
+          format: html-blocks
+      label: Content
+    config:
+      min: 
+      max: 
+      labelField: 
+    label: Mitarbeiter
+  label: Team
+- name: seo
+  type: include
+  config: {}
+  template: seo
+  label: SEO
+pages:
+- content/über-uns.md

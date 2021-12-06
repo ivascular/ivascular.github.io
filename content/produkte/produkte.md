@@ -1,0 +1,31 @@
++++
+date = "2019-04-13T08:03:46+02:00"
+layout = "productgroupslistlanding"
+seo_description = ""
+title = "Produkte"
+[header]
+hintergrundbild = "/uploads/2019/05/02/endoscout_e.png"
+[header.hintergrundfarbe]
+farbe = "mint_hell:rgb(174,204,208)"
+[header.hintergrundfarbe.hintergrundfarbe]
+farbe = ""
+[header.titelfarbe]
+farbe = "blue:rgb(12,49,131)"
+[linkfarbe]
+linkfarbe = "rot"
+[menu.main]
+weight = 2
+[menu.mobil]
+weight = 1
+[[bereiche]]
+bild = "/uploads/bein_bild.png"
+link = "produkte/Periphere Gefäßtherapie/liste.md"
+linkbeschriftung = "weiter"
+titel = "Periphere Gefäßtherapie"
+[[bereiche]]
+bild = "/uploads/koronar_icon.png"
+link = "produkte/Koronare Gefäßtherapie/liste.md"
+linkbeschriftung = "weiter"
+titel = "Koronare Gefäßtherapie"
+
++++

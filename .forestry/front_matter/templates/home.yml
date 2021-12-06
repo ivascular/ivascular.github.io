@@ -1,0 +1,279 @@
+---
+label: Home
+hide_body: true
+fields:
+- name: title
+  label: Title
+  type: text
+  hidden: false
+  default: ''
+- name: type
+  label: Type
+  type: text
+  hidden: false
+  default: ''
+- name: seo_description
+  label: Seo description
+  type: text
+  hidden: false
+  default: ''
+- type: field_group_list
+  name: slider
+  label: Slider
+  config:
+    min: '1'
+  fields:
+  - type: textarea
+    name: titel
+    label: Titel
+    config:
+      wysiwyg: true
+      schema:
+        format: markdown
+  - type: text
+    name: linktitel
+    label: Link-Titel
+  - type: file
+    name: bild
+    label: Bild
+  - type: textarea
+    name: content
+    label: Content
+    config:
+      wysiwyg: true
+      schema:
+        format: markdown
+  - type: boolean
+    name: link_button_qm
+    label: Link-Button?
+  - type: text
+    name: link_button_beschriftung
+    label: Link-Button-Beschriftung
+  - type: select
+    name: link
+    config:
+      source:
+        type: pages
+    label: Link
+  - type: file
+    name: content_hintergrundgrafik
+    label: Content Hintergrundgrafik
+- type: field_group
+  name: infoblock_endoscout
+  label: Infoblock Endoscout
+  fields:
+  - type: include
+    name: infoblock_endoscout
+    label: Infoblock Endoscout
+    template: content50image50
+- type: field_group_list
+  label: Produktbereiche
+  name: produktbereiche
+  fields:
+  - type: text
+    name: titel_lang
+    label: Titel lang
+  - type: field_group
+    name: titel
+    label: Titel
+    fields:
+    - type: include
+      name: titel
+      label: Titel
+      template: coloredtitle
+  - type: include
+    name: hintergrundfarbe
+    label: Hintergrundfarbe
+    template: hintergrundfarbe
+  - type: include
+    name: content
+    label: Content
+    template: coloredcontent
+  - type: file
+    label: Hintergrundbild
+    name: hintergrundbild
+- type: field_group_list
+  name: news
+  label: News
+  fields:
+  - type: field_group
+    name: hintergrundfarbe
+    label: Hintergrundfarbe
+    fields:
+    - type: include
+      template: endoscoutcolors
+      label: Hintergrundfarbe
+      name: hintergrundfarbe
+  - type: field_group
+    name: titelfarbe
+    label: Titelfarbe
+    fields:
+    - type: include
+      template: endoscoutcolors
+      label: Titelfarbe
+      name: titelfarbe
+  - type: field_group
+    name: textfarbe
+    label: Textfarbe
+    fields:
+    - type: include
+      template: endoscoutcolors
+      label: Textfarbe
+      name: textfarbe
+  - type: select
+    name: newsitem
+    config:
+      source:
+        type: pages
+        section: news
+    label: News-Item
+  - type: text
+    name: linkbeschriftung
+    label: Link-Beschriftung
+    default: weiterlesen
+  config:
+    labelField: newsitem
+- type: field_group
+  name: content50
+  label: Mediathek
+  fields:
+  - type: field_group
+    name: hintergrund
+    label: Hintergrund
+    fields:
+    - type: include
+      template: endoscoutcolors
+      label: Farbe
+      name: farbe
+    - type: file
+      name: bild
+      label: Bild
+  - type: field_group
+    name: titel
+    label: Titel
+    fields:
+    - type: include
+      name: titel
+      label: Titel
+      template: coloredtitle
+  - type: field_group
+    name: content
+    label: Content
+    fields:
+    - type: include
+      name: content
+      label: Content
+      template: coloredcontent
+  - type: field_group
+    name: link
+    label: Link
+    fields:
+    - type: include
+      name: linkfarbe
+      label: Linkfarbe
+      template: linkfarbe
+    - type: select
+      name: link
+      config:
+        source:
+          type: pages
+          section: pages
+      label: Link
+    - type: text
+      name: linkbeschriftung
+      label: Link-Beschriftung
+- type: field_group
+  name: content25_1
+  label: Kontakt
+  fields:
+  - type: field_group
+    name: hintergrund
+    label: Hintergrund
+    fields:
+    - type: include
+      template: endoscoutcolors
+      label: Farbe
+      name: farbe
+    - type: file
+      name: bild
+      label: Bild
+  - type: field_group
+    name: titel
+    label: Titel
+    fields:
+    - type: include
+      name: titel
+      label: Titel
+      template: coloredtitle
+  - type: field_group
+    name: content
+    label: Content
+    fields:
+    - type: include
+      name: content
+      label: Content
+      template: coloredcontent
+  - type: field_group
+    name: link
+    label: Link
+    fields:
+    - type: include
+      name: linkfarbe
+      label: Linkfarbe
+      template: linkfarbe
+    - type: text
+      name: link
+      label: Link
+    - type: text
+      name: linkbeschriftung
+      label: Link-Beschriftung
+- type: field_group
+  name: content25_2
+  label: Events
+  fields:
+  - type: field_group
+    name: hintergrund
+    label: Hintergrund
+    fields:
+    - type: include
+      template: endoscoutcolors
+      label: Farbe
+      name: farbe
+    - type: file
+      name: bild
+      label: Bild
+  - type: text
+    name: titel
+    label: Titel
+  - type: select
+    name: event
+    config:
+      source:
+        type: pages
+        section: events
+    label: Event
+  - type: field_group
+    name: link
+    label: Link
+    fields:
+    - type: include
+      name: linkfarbe
+      label: Linkfarbe
+      template: linkfarbe
+    - type: select
+      name: link
+      config:
+        source:
+          type: pages
+          section: pages
+      label: Link
+    - type: text
+      name: linkbeschriftung
+      label: Link-Beschriftung
+- name: seo
+  type: include
+  config: {}
+  template: seo
+  label: SEO
+pages:
+- content/_index.md

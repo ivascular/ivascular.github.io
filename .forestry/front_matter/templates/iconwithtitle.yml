@@ -1,0 +1,19 @@
+---
+label: IconWithTitle
+hide_body: true
+fields:
+- name: icon
+  type: field_group
+  config: {}
+  fields:
+  - name: titel
+    type: text
+    config:
+      required: false
+    label: Titel
+  - name: bild
+    type: file
+    config:
+      maxSize: 250
+    label: Bild
+  label: Icon

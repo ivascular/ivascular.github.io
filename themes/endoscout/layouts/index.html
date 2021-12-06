@@ -1,0 +1,155 @@
+{{ define "main" }}
+{{$p:=.}}
+{{$e:=.}}
+{{ range where .Site.Pages "Params.startseite" true }}
+      {{$e = .}}
+    {{ end }}
+<div id="home">
+  <div class="ui container" id="slidercontainer">
+    <ul id="slider">
+      {{ range $x,$img := .Params.slider }}
+      <li>
+        <div class="slideritem">
+          <div class="pimg" style="background:url({{partial "imgUrl" (dict "img" .bild "params" "c_scale,f_auto,w_800" )}}) center center no-repeat;"></div>
+          <div class="ptxt" style="{{with $img.content_hintergrundgrafik}}background:url({{partial "imgUrl" (dict "img" $img.content_hintergrundgrafik "params" "c_scale,f_auto,h_200" )}}) right top no-repeat;{{end}}">
+              <a href="{{with $img.link}}{{relref $p $img.link }}{{end}}">
+                <h4>{{.linktitel}}</h4>
+                <h3>{{.titel}}</h3>
+              </a>
+              <div>
+                {{.content|safeHTML}}
+              </div>
+              {{if .link_button_qm}}
+              <a class="morebutton" href="{{with $img.link}}{{relref $p $img.link }}{{end}}">
+                  <div class="iconw"><i class="chevron right icon"></i></div>
+                  <div class="txt">{{$img.link_button_beschriftung}}</div>
+              </a>
+              {{end}}
+          </div>
+        </div>
+      </li>
+      {{end}}
+    </ul>
+  </div>
+  {{with .Params.infoblock_endoscout}}
+  <div class="ui container c50i50" id="infoblock_endoscout" {{ printf "style=background:%s" (partial "colorextr" .hintergrundfarbe.farbe) | safeHTMLAttr }}>
+    <div class="content">
+        <h4>{{.titel.untertitel}}</h4>
+        <h3 {{ printf "style=color:%s" (partial "colorextr" .titel.textfarbe.farbe) | safeHTMLAttr }}>
+          {{.titel.titel}}
+        </h3>
+        <div {{ printf "style=color:%s" (partial "colorextr" .content.textfarbe.farbe) | safeHTMLAttr }}>
+          {{.content.content|safeHTML}}
+        </div>
+        <a class="morebutton" href="{{relref $p .link }}">
+            <div class="iconw"><i class="chevron right icon"></i></div>
+            <div class="txt">{{.beschriftung_link_button}}</div>
+        </a>
+    </div>
+    <div style="background:url({{partial "imgUrl" (dict "img" .bild "params" "c_scale,f_auto,w_800" )}}) center center no-repeat; background-size:cover;">
+    </div>
+  </div>
+  {{end}}
+  {{with .Params.produktbereiche}}
+  <div class="ui container c50i50 cblock pbereiche">
+      {{ range . }}
+      <div class="content" {{ printf "style=background:%s %s" (partial "colorextr" .hintergrundfarbe.farbe) | safeHTMLAttr }}>
+          <div class="pimg" style="background:url({{partial "imgUrl" (dict "img" .hintergrundbild "params" "" )}}) no-repeat;">
+          <h4  {{ printf "style=color:%s" (partial "colorextr" .titel.textfarbe.farbe) | safeHTMLAttr }}>
+            {{replaceRE "\\[.+\\]" "" .titel_lang}}
+          </h4>
+          <h3 {{ printf "style=color:%s" (partial "colorextr" .titel.textfarbe.farbe) | safeHTMLAttr }}>
+            {{.titel.titel}}
+          </h3>
+          <div {{ printf "style=color:%s" (partial "colorextr" .titel.textfarbe.farbe) | safeHTMLAttr }}>
+            {{.content|safeHTML}}
+          </div>
+        </div>
+      </div>
+    {{end}}
+  </div>
+  {{end}}
+  {{with .Params.news}}
+  <div class="ui container c50i50 cblock">
+      {{ range . }}
+      {{$n:= $.Site.GetPage "page" .newsitem}}
+      <div class="content_no_even_odd" {{ printf "style=background:%s %s" (partial "colorextr" .hintergrundfarbe.farbe) | safeHTMLAttr }}>
+          <div class="pimg" style="background:url({{partial "imgUrl" (dict "img" .hintergrundbild "params" "" )}}) no-repeat;">
+          <h4  {{ printf "style=color:%s" (partial "colorextr" .titelfarbe.farbe) | safeHTMLAttr }}>
+            NEWS
+          </h4>
+          <h3 {{ printf "style=color:%s" (partial "colorextr" .titelfarbe.farbe) | safeHTMLAttr }}>
+            {{ $n.Params.titel}}
+          </h3>
+          <div {{ printf "style=color:%s" (partial "colorextr" .textfarbe.farbe) | safeHTMLAttr }}>
+            {{$n.Params.zusammenfassung|safeHTML}}
+          </div>
+          <a class="morebutton" href="{{relref $p .newsitem }}">
+              <div class="iconw"><i class="chevron right icon"></i></div>
+              <div class="txt">{{.linkbeschriftung}}</div>
+          </a>
+        </div>
+      </div>
+    {{end}}
+  </div>
+  {{end}}
+  <div class="ui container cblock flex">
+    {{with .Params.content50}}
+    <div class="content50" {{ printf "style=background:%s" (partial "colorextr" .hintergrund.farbe) | safeHTMLAttr }}>
+        <div class="pimg" style="background:url({{partial "imgUrl" (dict "img" .hintergrund.bild "params" "" )}}) no-repeat;">
+          <h4  {{ printf "style=color:%s" (partial "colorextr" .content.textfarbe.farbe) | safeHTMLAttr }}>&nbsp;</h4>
+          <h3 {{ printf "style=color:%s" (partial "colorextr" .titel.textfarbe.farbe) | safeHTMLAttr }}>
+            {{.titel.titel}}
+          </h4>
+          <div {{ printf "style=color:%s" (partial "colorextr" .content.textfarbe.farbe) | safeHTMLAttr }}>
+              {{.content.content|safeHTML}}
+            </div>
+            <a class="morebutton {{.link.linkfarbe.linkfarbe}}" href="{{relref $p .link.link }}">
+                <div class="iconw"><i class="chevron right icon"></i></div>
+                <div class="txt">{{.link.linkbeschriftung}}</div>
+            </a>
+        </div>
+    </div>
+    {{ end }}
+    {{with .Params.content25_1}}
+    <div class="content25"  {{ printf "style=background:%s" (partial "colorextr" .hintergrund.farbe) | safeHTMLAttr }}>
+        <div class="pimg" style="background:url({{partial "imgUrl" (dict "img" .hintergrund.bild "params" "" )}}) no-repeat;">
+          <h4  {{ printf "style=color:%s" (partial "colorextr" .content.textfarbe.farbe) | safeHTMLAttr }}>&nbsp;</h4>
+          <h3 {{ printf "style=color:%s" (partial "colorextr" .titel.textfarbe.farbe) | safeHTMLAttr }}>
+            {{.titel.titel}}
+          </h4>
+          <div {{ printf "style=color:%s" (partial "colorextr" .content.textfarbe.farbe) | safeHTMLAttr }}>
+            {{.content.content|safeHTML}}
+          </div>
+          <a class="morebutton {{.link.linkfarbe.linkfarbe}}" href="{{.link.link }}">
+              <div class="iconw"><i class="chevron right icon"></i></div>
+              <div class="txt">{{.link.linkbeschriftung}}</div>
+          </a>
+        </div>
+    </div>
+    {{ end }}
+    {{with .Params.content25_2}}
+    <div class="content25 mint">
+        <div class="pimg" style="background:url({{partial "imgUrl" (dict "img" .hintergrund.bild "params" "" )}}) no-repeat;">
+          <h4>{{.titel}}</h4>
+          <h3>
+            {{$e.Params.title}}
+          </h3>
+          {{with $e.Params.ort_und_zeitangabe|safeHTML}}
+          <div class="loc">
+            {{.}}
+          </div>
+          {{end}}
+          <div>
+            {{$e.Params.zusammenfassung|safeHTML}}
+          </div>
+          <a class="morebutton" href="{{relref $p .link.link }}">
+              <div class="iconw"><i class="chevron right icon"></i></div>
+              <div class="txt">{{.link.linkbeschriftung}}</div>
+          </a>
+        </div>
+    </div>
+    {{ end }}
+  </div>
+</div>
+{{ end }}

@@ -1,0 +1,52 @@
+---
+label: Kontakt
+hide_body: true
+fields:
+- type: field_group
+  name: hintergrund
+  label: Hintergrund
+  fields:
+  - type: include
+    template: endoscoutcolors
+    label: Farbe
+    name: farbe
+  - type: file
+    name: bild
+    label: Bild
+- type: field_group
+  name: titel
+  label: Titel
+  fields:
+  - type: include
+    name: titel
+    label: Titel
+    template: coloredtitle
+- type: field_group
+  name: content
+  label: Content
+  fields:
+  - type: include
+    name: content
+    label: Content
+    template: coloredcontent
+- type: field_group
+  name: link
+  label: Link
+  fields:
+  - type: include
+    name: linkfarbe
+    label: Linkfarbe
+    template: linkfarbe
+  - type: text
+    name: link
+    label: Link
+  - type: text
+    name: linkbeschriftung
+    label: Link-Beschriftung
+- name: seo
+  type: include
+  config: {}
+  template: seo
+  label: SEO
+pages:
+- content/kontakt.md
