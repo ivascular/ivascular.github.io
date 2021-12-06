@@ -12,5 +12,3 @@ fields:
     template: content50image50
     label: Content
   label: Header
-pages:
-- content/veranstaltungen.md
