@@ -104,6 +104,11 @@ fields:
         schema:
           format: html-blocks
       label: Content
+    - name: mitarbeiter_bild
+      type: file
+      config:
+        maxSize: 64
+      label: Mitarbeiter Bild
     config:
       min: 
       max: 
