@@ -96,7 +96,7 @@ titel = "Peripher"
 farbe = "weiss:rgb(255,255,255)"
 [[produktbereiche]]
 content = "<ul><li><p><a href=\"/produkte/koronare-gefäßtherapie/ballonkatheter/liste/\" title=\"\">Ballonkatheter</a></p></li><li><p><a href=\"/produkte/koronare-gefäßtherapie/medikamentenbeschichtete-ballonkatheter/liste/\" title=\"\">Medikamentenbeschichteter Ballonkatheter</a></p></li><li><p><a href=\"/produkte/koronare-gefäßtherapie/ballonexpandierbare-stents/liste/\" title=\"\">Ballonexpandiernde Stents</a></p></li></ul>"
-hintergrundbild = "/uploads/koronar_icon.png"
+hintergrundbild = "/uploads/2021/12/08/icon-koronar-grau.png"
 titel_lang = "Produkte Interventionelle Gefäßtherapie [Koronar]"
 [produktbereiche.hintergrundfarbe]
 farbe = "magenta:rgb(228,19,112)"
