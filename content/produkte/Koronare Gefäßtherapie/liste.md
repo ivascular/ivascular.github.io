@@ -5,7 +5,7 @@ monat = "2019-04-01T00:00:00+01:00"
 seo_description = "Koronare Gefäßtherapie: Ballonexpandierbare Stents, Ballonkatheter, Extraktionskatheter, Medikamentenbeschichtete Ballonkatheter"
 title = "Koronare Gefäßtherapie"
 [header]
-hintergrundbild = "/uploads/koronar_icon.png"
+hintergrundbild = "/uploads/2021/12/08/icon-koronar-grau.png"
 [header.hintergrundfarbe]
 farbe = "magenta:rgb(228,19,112)"
 [header.titelfarbe]
