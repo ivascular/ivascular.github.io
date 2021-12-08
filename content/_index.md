@@ -25,7 +25,7 @@ titel = "Messe, Workshops"
 bild = ""
 farbe = "grau:rgb(233,233,233)"
 [content25_2.link]
-link = "veranstaltungen.md"
+link = ""
 linkbeschriftung = "Alle Events anzeigen"
 [content25_2.link.linkfarbe]
 linkfarbe = "orange"
