@@ -40,7 +40,7 @@ mitarbeiter_bild = "/uploads/2019/05/02/elefanten.png"
 [[team.mitarbeiter]]
 beschriftung = "Marco Kölble"
 content = "<p><strong>Marco Kölble</strong><br>COO<br>0761-458948-13</p><p><a href=\"mailto:marco.koelble@endoscout.de\" title=\"\">marco.koelble@endoscout.de</a></p>"
-mitarbeiter_bild = ""
+mitarbeiter_bild = "/uploads/2021/12/08/110-1100707_person-avatar-placeholder-png.jpeg"
 [[team.mitarbeiter]]
 beschriftung = "Ellen Körber"
 content = "<p><strong>Ellen Körber</strong><br>Customer Service <br>0761-458948-13</p><p><a href=\"mailto:ellen.koerber@endoscout.de\" title=\"\">ellen.koerber@endoscout.de</a></p>"
