@@ -84,7 +84,7 @@ farbe = "black:rgb(0,0,0)"
 farbe = "magenta:rgb(228,19,112)"
 [[produktbereiche]]
 content = "<ul><li><p><a href=\"produkte/periphere-gefäßtherapie/ballonkatheter/liste/\" title=\"\">Ballonkatheter</a></p></li><li><p><a href=\"/produkte/periphere-gefäßtherapie/medikamentenbeschichtete-ballonkatheter/liste/\" title=\"\">Medikamentenbeschichtete Ballonkathter</a></p></li><li><p><a href=\"/produkte/periphere-gefäßtherapie/extraktionskatheter/liste/\" title=\"\">Extraktionskatheter</a></p></li><li><p><a href=\"/produkte/periphere-gefäßtherapie/ballonexpandierbare-stents/liste/\" title=\"\">Ballonexpandierbare Stents</a></p></li><li><p><a href=\"/produkte/periphere-gefäßtherapie/selbstexpandierende-stents/liste/\" title=\"\">Selbstexpandierende Stents</a></p></li><li><p><a href=\"/produkte/periphere-gefäßtherapie/vascular-plugs/liste/\" title=\"\">Vascular Plugs</a></p></li></ul>"
-hintergrundbild = "/uploads/2019/05/13/bein_bild_test.png"
+hintergrundbild = "/uploads/2021/12/08/icon-peripher-grau.png"
 titel_lang = "Produkte Interventionelle Gefäßtherapie [Peripher]"
 [produktbereiche.hintergrundfarbe]
 farbe = "blue:rgb(12,49,131)"
