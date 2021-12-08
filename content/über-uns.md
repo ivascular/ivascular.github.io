@@ -36,7 +36,7 @@ farbe = "blue:rgb(12,49,131)"
 [[team.mitarbeiter]]
 beschriftung = "Heinz Kölble"
 content = "<p><strong>Heinz Kölble</strong><br>Geschäftsführer/Inhaber <br>0761-458948-0</p><p><a href=\"mailto:heinz.koelble@endoscout.de\" title=\"\">heinz.koelble@endoscout.de</a></p>"
-mitarbeiter_bild = "/uploads/2019/05/02/elefanten.png"
+mitarbeiter_bild = "/uploads/2021/12/08/110-1100707_person-avatar-placeholder-png.jpeg"
 [[team.mitarbeiter]]
 beschriftung = "Marco Kölble"
 content = "<p><strong>Marco Kölble</strong><br>COO<br>0761-458948-13</p><p><a href=\"mailto:marco.koelble@endoscout.de\" title=\"\">marco.koelble@endoscout.de</a></p>"
@@ -44,11 +44,11 @@ mitarbeiter_bild = "/uploads/2021/12/08/110-1100707_person-avatar-placeholder-pn
 [[team.mitarbeiter]]
 beschriftung = "Ellen Körber"
 content = "<p><strong>Ellen Körber</strong><br>Customer Service <br>0761-458948-13</p><p><a href=\"mailto:ellen.koerber@endoscout.de\" title=\"\">ellen.koerber@endoscout.de</a></p>"
-mitarbeiter_bild = ""
+mitarbeiter_bild = "/uploads/2021/12/08/110-1100707_person-avatar-placeholder-png.jpeg"
 [[team.mitarbeiter]]
 beschriftung = "Jan Kölble"
 content = "<p><strong>Jan Kölble</strong><br>Customer Service <br>0761-458948-12</p><p>j<a href=\"mailto:an.koelble@endoscout.de\" title=\"\">an.koelble@endoscout.de</a></p>"
-mitarbeiter_bild = ""
+mitarbeiter_bild = "/uploads/2021/12/08/110-1100707_person-avatar-placeholder-png.jpeg"
 [[geschaeftsbereiche]]
 logos = []
 titel_lang = "[endocare]IP-INTERVENTIONAL PRODUCTS"
