@@ -6,11 +6,11 @@ products = ["produkte/Periphere Gefäßtherapie/Ballonkatheter/oceanus_35.md", "
 seo_description = "Ballonkatheter: Oceanus 14 Pro, Oceanus 18, Oceanus 35"
 title = "[P]Ballonkatheter"
 [header]
-hintergrundbild = "/uploads/bein_bild.png"
+hintergrundbild = "/uploads/2021/12/09/icon-peripher-white.png"
 [header.hintergrundfarbe]
 farbe = "blue:rgb(12,49,131)"
 [header.titelfarbe]
-farbe = "magenta:rgb(228,19,112)"
+farbe = "weiss:rgb(255,255,255)"
 [menu.main]
 parent = "Periphere Gefäßtherapie"
 weight = 1
