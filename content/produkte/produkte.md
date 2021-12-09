@@ -18,12 +18,12 @@ weight = 2
 [menu.mobil]
 weight = 1
 [[bereiche]]
-bild = "/uploads/bein_bild.png"
+bild = "/uploads/2021/12/09/icon-peripher-white.png"
 link = "produkte/Periphere Gefäßtherapie/liste.md"
 linkbeschriftung = "weiter"
 titel = "Periphere Gefäßtherapie"
 [[bereiche]]
-bild = "/uploads/koronar_icon.png"
+bild = "/uploads/2021/12/09/icon-koronar-white.png"
 link = "produkte/Koronare Gefäßtherapie/liste.md"
 linkbeschriftung = "weiter"
 titel = "Koronare Gefäßtherapie"
