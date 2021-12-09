@@ -14,4 +14,5 @@ fields:
     - grau:rgb(233,233,233)
     - weiss:rgb(255,255,255)
     - black:rgb(0,0,0)
+    - dgrau:rgb(200,200,200)
   label: Farbe
