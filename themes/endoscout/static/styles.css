@@ -23,18 +23,18 @@ a:hover {
   color: #e41370;
 }
 .sy-box.topslider {
-  background: #bfdee3;
+  background: #9a9a9a;
 }
 .sy-pager {
   margin: 0!important;
   padding: 0.35rem 0 !important;
 }
 .sy-pager li.sy-active a {
-  background: #0c3183 !important;
+  background: #e41370 !important;
 }
 .sy-pager li a {
   background: transparent!important;
-  border: 1px solid #0c3183;
+  border: 1px solid #e41370;
 }
 blockquote {
   text-align: center;
@@ -45,7 +45,8 @@ header {
   font-family: 'Aeroportal';
 }
 header #headermenuw {
-  background: #aeccd0;
+  background: #0c3183;
+  background: linear-gradient(90deg, #0c3183 0%, #e41370 20%);
 }
 @media (max-width: 720px) {
   header .logo {
@@ -153,10 +154,17 @@ header #headermenumobil {
   }
   header #headermenumobil .headermenuitem {
     width: 50%;
-    color: #0c3183;
+    color: white!important;
     text-transform: uppercase;
     font-size: 1rem;
     line-height: 2.5rem;
+  }
+  header #headermenumobil .headermenuitem.active {
+    color: white;
+    text-decoration: underline;
+  }
+  header #headermenumobil .headermenuitem a {
+    color: white;
   }
   header #headermenumobil .headermenuitem:nth-child(even) {
     text-align: right;
@@ -174,7 +182,7 @@ header #headermenu {
 }
 header #headermenu .headermenuitem {
   flex: 0 1 auto;
-  color: #0c3183;
+  color: white;
   text-transform: uppercase;
   text-align: center;
   font-size: 1rem;
@@ -190,12 +198,15 @@ header #headermenu .headermenuitem:first-child {
   margin-left: -1rem;
 }
 header #headermenu .headermenuitem.active {
-  color: #0c3183;
+  color: white;
   text-decoration: underline;
+}
+header #headermenu .headermenuitem a {
+  color: white;
 }
 header #headermenu .headermenuitem a span {
   padding: 0 1em;
-  border-right: 1px solid #e41370;
+  border-right: 1px solid white;
 }
 header #headermenu .headermenuitem .sub-menu {
   width: 0;
@@ -536,7 +547,7 @@ footer .footermenu a:last-child {
 #home #slider .slideritem .ptxt {
   padding: 3rem 2rem;
   width: 34%;
-  background-color: #aeccd0 !important;
+  background-color: #e9e9e9 !important;
 }
 #home #slider .slideritem .ptxt h4 {
   font-weight: normal;
@@ -643,7 +654,7 @@ footer .footermenu a:last-child {
   content: '';
 }
 #breadcrumbs {
-  background: #bfdee3;
+  background: #e9e9e9;
 }
 #breadcrumbs .container {
   padding: 0;
@@ -1110,7 +1121,7 @@ footer .footermenu a:last-child {
 .subpage.about .c50i50.team > * .ma {
   display: flex;
   justify-content: space-between;
-  padding: 0 2rem;
+  padding: 3rem 2rem 1rem 2rem;
 }
 .subpage.about .c50i50.team > * .ma > * {
   color: #1e1e1e;

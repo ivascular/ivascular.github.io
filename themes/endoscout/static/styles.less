@@ -6,6 +6,7 @@
 @orange:rgb(228,19,112);
 @orange_hell:rgb(228,19,112);
 @grau:rgb(233,233,233);
+@grau_dunkel: rgb(154,154,154);
 @content: rgb(30,30,30);
 
 
@@ -29,7 +30,7 @@ a{
   }
 }
 .sy-box.topslider{
-  background:@mint_hell;
+  background:@grau_dunkel;
 }
 .sy-pager{
   margin:0!important;
@@ -37,12 +38,12 @@ a{
   li{
     &.sy-active{
       a{
-        background:@rot!important;
+        background:@orange!important;
       }
     }
     a{
       background:transparent!important;
-      border:1px solid @rot;
+      border:1px solid @orange;
     }
   }
 }
@@ -54,7 +55,9 @@ blockquote{
 header{
   font-family: 'Aeroportal';
   #headermenuw{
-    background:@mint;
+    
+    background: rgb(12,49,131);
+background: linear-gradient(90deg, rgba(12,49,131,1) 0%, rgba(228,19,112,1) 20%);
   }
   .logo{
     @media (max-width: 720px){
@@ -157,7 +160,14 @@ header{
       }
       .headermenuitem{
         width:50%;
-        color:@rot;
+        &.active{
+          color:white;
+          text-decoration: underline;
+        }
+        color:white!important;
+        a{
+          color:white;
+        }
         text-transform:uppercase;
         font-size:1rem;
         line-height:2.5rem;
@@ -176,7 +186,7 @@ header{
     }
     .headermenuitem{
       flex:0 1 auto;
-      color:@rot;
+      color:white;
       text-transform:uppercase;
       text-align:center;
       font-size:1rem;
@@ -187,14 +197,15 @@ header{
         margin-left:-1rem;
       }
       &.active{
-        color:@rot;
+        color:white;
         text-decoration: underline;
       }
       color:white!important;
       a{
+        color:white;
         span{
           padding: 0 1em;
-          border-right:1px solid @orange_hell;
+          border-right:1px solid white;
         }
       }
       
@@ -538,7 +549,7 @@ footer{
       .ptxt{
         padding:3rem 2rem;
         width:34%;
-        background-color:@mint!important;
+        background-color:@grau!important;
         h4{
           font-weight:normal;
           margin:0;
@@ -651,7 +662,7 @@ footer{
   }
 }
 #breadcrumbs{
-  background:@mint_hell;
+  background:@grau;
   .container{
     padding:0;
     a{
@@ -1119,7 +1130,7 @@ footer{
         .ma{
           display:flex;
           justify-content: space-between;
-          padding: 0 2rem;
+          padding: 3rem 2rem 1rem 2rem;
           >*{
             color:@content;
             width:25%;

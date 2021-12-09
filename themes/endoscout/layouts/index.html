@@ -112,7 +112,7 @@
     </div>
     {{ end }}
     {{with .Params.content25_1}}
-    <div class="content25"  {{ printf "style=background:%s" (partial "colorextr" .hintergrund.farbe) | safeHTMLAttr }}>
+    <div class="content50"  {{ printf "style=background:%s" (partial "colorextr" .hintergrund.farbe) | safeHTMLAttr }}>
         <div class="pimg" style="background:url({{partial "imgUrl" (dict "img" .hintergrund.bild "params" "" )}}) no-repeat;">
           <h4  {{ printf "style=color:%s" (partial "colorextr" .content.textfarbe.farbe) | safeHTMLAttr }}>&nbsp;</h4>
           <h3 {{ printf "style=color:%s" (partial "colorextr" .titel.textfarbe.farbe) | safeHTMLAttr }}>
@@ -122,28 +122,6 @@
             {{.content.content|safeHTML}}
           </div>
           <a class="morebutton {{.link.linkfarbe.linkfarbe}}" href="{{.link.link }}">
-              <div class="iconw"><i class="chevron right icon"></i></div>
-              <div class="txt">{{.link.linkbeschriftung}}</div>
-          </a>
-        </div>
-    </div>
-    {{ end }}
-    {{with .Params.content25_2}}
-    <div class="content25 mint">
-        <div class="pimg" style="background:url({{partial "imgUrl" (dict "img" .hintergrund.bild "params" "" )}}) no-repeat;">
-          <h4>{{.titel}}</h4>
-          <h3>
-            {{$e.Params.title}}
-          </h3>
-          {{with $e.Params.ort_und_zeitangabe|safeHTML}}
-          <div class="loc">
-            {{.}}
-          </div>
-          {{end}}
-          <div>
-            {{$e.Params.zusammenfassung|safeHTML}}
-          </div>
-          <a class="morebutton" href="{{relref $p .link.link }}">
               <div class="iconw"><i class="chevron right icon"></i></div>
               <div class="txt">{{.link.linkbeschriftung}}</div>
           </a>

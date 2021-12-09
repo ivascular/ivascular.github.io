@@ -58,6 +58,7 @@
         <div class="ma">
           {{range .mitarbeiter}}
             <div>
+              <img src="{{partial "imgUrl" (dict "img" .mitarbeiter_bild "params" "c_scale,f_auto,w_100" )}}"/>
               {{.content|safeHTML}}
             </div>
           {{end}}
