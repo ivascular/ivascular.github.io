@@ -4,7 +4,7 @@ layout = "productgroupslistlanding"
 seo_description = ""
 title = "Produkte"
 [header]
-hintergrundbild = "/uploads/2019/05/02/endoscout_e.png"
+hintergrundbild = "/uploads/2021/12/09/iv_white_transparent.png"
 [header.hintergrundfarbe]
 farbe = "grau:rgb(233,233,233)"
 [header.hintergrundfarbe.hintergrundfarbe]
