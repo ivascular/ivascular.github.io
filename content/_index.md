@@ -105,7 +105,7 @@ farbe = "blue:rgb(12,49,131)"
 [produktbereiche.titel]
 titel = "Koronar"
 [produktbereiche.titel.textfarbe]
-farbe = "blue:rgb(12,49,131)"
+farbe = "weiss:rgb(255,255,255)"
 [[slider]]
 bild = "/uploads/2021/05/04/bildschirmfoto-2021-05-04-um-21-52-38.png"
 content = "iVascular has announced that the company has received CE-mark for their new balloon-expandable ePTFE covered stent!"
