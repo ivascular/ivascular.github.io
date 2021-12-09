@@ -6,7 +6,7 @@ title = "Produkte"
 [header]
 hintergrundbild = "/uploads/2019/05/02/endoscout_e.png"
 [header.hintergrundfarbe]
-farbe = "mint_hell:rgb(174,204,208)"
+farbe = "grau:rgb(233,233,233)"
 [header.hintergrundfarbe.hintergrundfarbe]
 farbe = ""
 [header.titelfarbe]
