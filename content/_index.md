@@ -101,7 +101,7 @@ titel_lang = "Produkte Interventionelle Gefäßtherapie [Koronar]"
 [produktbereiche.hintergrundfarbe]
 farbe = "magenta:rgb(228,19,112)"
 [produktbereiche.textfarbe]
-farbe = "blue:rgb(12,49,131)"
+farbe = "weiss:rgb(255,255,255)"
 [produktbereiche.titel]
 titel = "Koronar"
 [produktbereiche.titel.textfarbe]
