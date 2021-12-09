@@ -5,11 +5,11 @@ products = ["produkte/Periphere Gefäßtherapie/Ballonexpandierbare Stents/isthm
 seo_description = "Ballonexpandierbare Stents: Cre8 BTK, Inperia Advance, Isthmus Logic, Radix2, Restorer, Angiolite BTK"
 title = "[P]Ballonexpandierbare Stents"
 [header]
-hintergrundbild = "/uploads/bein_bild.png"
+hintergrundbild = "/uploads/2021/12/09/icon-peripher-white.png"
 [header.hintergrundfarbe]
 farbe = "blue:rgb(12,49,131)"
 [header.titelfarbe]
-farbe = "magenta:rgb(228,19,112)"
+farbe = "weiss:rgb(255,255,255)"
 [menu.main]
 parent = "Periphere Gefäßtherapie"
 weight = 2
