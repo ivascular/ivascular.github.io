@@ -68,9 +68,9 @@ weight = 1
 linkbeschriftung = "weiterlesen"
 newsitem = "news/Analysis of German Insurance Data Shows No Long-Term Increased Mortality With Paclitaxel-Based Devices.md"
 [news.hintergrundfarbe]
-farbe = "blue:rgb(12,49,131)"
+farbe = "dgrau:rgb(200,200,200)"
 [news.textfarbe]
-farbe = "weiss:rgb(255,255,255)"
+farbe = "black:rgb(0,0,0)"
 [news.titelfarbe]
 farbe = "magenta:rgb(228,19,112)"
 [[news]]
