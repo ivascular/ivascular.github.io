@@ -6,11 +6,11 @@ products = ["produkte/Periphere Gefäßtherapie/Medikamentenbeschichtete Ballonk
 seo_description = "Peripher Medikamentenbeschichtete Ballonkatheter: Chocolate Touch, Luminor 14m, Luminor 18, Luminor 35"
 title = "[P]Medikamentenbeschichtete Ballonkatheter"
 [header]
-hintergrundbild = "/uploads/bein_bild.png"
+hintergrundbild = "/uploads/2021/12/09/icon-peripher-white.png"
 [header.hintergrundfarbe]
 farbe = "blue:rgb(12,49,131)"
 [header.titelfarbe]
-farbe = "magenta:rgb(228,19,112)"
+farbe = "weiss:rgb(255,255,255)"
 [menu.main]
 parent = "Periphere Gefäßtherapie"
 weight = 4
