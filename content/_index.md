@@ -7,7 +7,7 @@ content = "Schreiben Sie uns, oder rufen Sie uns an, wir sind für Sie da. Oder 
 [content25_1.content.textfarbe]
 farbe = "weiss:rgb(255,255,255)"
 [content25_1.hintergrund]
-bild = "/uploads/endoscout_e.png"
+bild = "/uploads/2021/12/09/iv_white.png"
 farbe = "blue:rgb(12,49,131)"
 [content25_1.link]
 link = "mailto:info@endoscout.de"
