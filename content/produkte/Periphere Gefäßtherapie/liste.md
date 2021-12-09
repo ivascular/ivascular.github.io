@@ -5,11 +5,11 @@ monat = "2019-04-01T00:00:00+01:00"
 seo_description = "Periphere Gefäßtherapie: Ballonkatheter, Extraktionskatheter, Medikamentenbeschichtete Ballonkatheter,  Selbstexpandierende Stents, Vascular Plugs"
 title = "Periphere Gefäßtherapie"
 [header]
-hintergrundbild = "/uploads/2021/12/08/icon-peripher-grau.png"
+hintergrundbild = "/uploads/2021/12/09/icon-peripher-white.png"
 [header.hintergrundfarbe]
 farbe = "blue:rgb(12,49,131)"
 [header.titelfarbe]
-farbe = "magenta:rgb(228,19,112)"
+farbe = "weiss:rgb(255,255,255)"
 [linkfarbe]
 linkfarbe = "orange"
 [menu.main]
