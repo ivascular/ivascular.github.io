@@ -6,11 +6,11 @@ products = ["produkte/Koronare Gefäßtherapie/Ballonexpandierbare Stents/angiol
 seo_description = "KORONAR Ballonexpandierbare Stents: Angiolite, Architect, Avantgarde, Cre8, Cre8 Evo"
 title = "[K]Ballonexpandierbare Stents"
 [header]
-hintergrundbild = "/uploads/koronar_icon.png"
+hintergrundbild = "/uploads/2021/12/09/icon-koronar-white.png"
 [header.hintergrundfarbe]
 farbe = "magenta:rgb(228,19,112)"
 [header.titelfarbe]
-farbe = "blue:rgb(12,49,131)"
+farbe = "weiss:rgb(255,255,255)"
 [menu.main]
 parent = "Koronare Gefäßtherapie"
 weight = 1
