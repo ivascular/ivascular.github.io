@@ -571,7 +571,7 @@ footer .footermenu a:last-child {
   #home #slider .slideritem .ptxt {
     padding: 1rem 3rem;
     width: 100%;
-    background-color: #aeccd0 !important;
+    background-color: #e9e9e9 !important;
   }
   #home #slider .slideritem .ptxt h4 {
     font-weight: normal;
@@ -703,7 +703,7 @@ footer .footermenu a:last-child {
 }
 .subpage.productgroupslist .product .ptxt,
 .subpage.productlist .product .ptxt {
-  background: #aeccd0;
+  background: #e9e9e9;
   min-height: 180px;
   padding: 1rem 2rem;
   width: 60%;
@@ -838,11 +838,15 @@ footer .footermenu a:last-child {
 }
 .subpage.productgroupslist.landing .pgroup.idx0 h2,
 .subpage.productlist.landing .pgroup.idx0 h2 {
-  color: #e41370;
+  color: white;
 }
 .subpage.productgroupslist.landing .pgroup.idx1,
 .subpage.productlist.landing .pgroup.idx1 {
   background: #e41370;
+}
+.subpage.productgroupslist.landing .pgroup.idx1 h2,
+.subpage.productlist.landing .pgroup.idx1 h2 {
+  color: white;
 }
 @media (max-width: 720px) {
   .subpage.mediathek .pc {
@@ -1177,7 +1181,7 @@ footer .footermenu a:last-child {
   border: none;
 }
 .subpage.product .psec h3 {
-  color: #e41370;
+  color: #0c3183;
   font-size: 1.8rem;
   text-transform: uppercase;
   margin: 0 0 1rem 0!important;
@@ -1233,7 +1237,7 @@ footer .footermenu a:last-child {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  border: 1px solid #aeccd0;
+  border: 1px solid #e9e9e9;
 }
 .subpage.product .phc > * {
   width: 50%;
@@ -1244,7 +1248,7 @@ footer .footermenu a:last-child {
   min-height: 200px;
 }
 .subpage.product .phc .content {
-  background-color: #aeccd0 !important;
+  background-color: #e9e9e9 !important;
   padding: 2rem;
   color: #1e1e1e;
 }
@@ -1257,7 +1261,7 @@ footer .footermenu a:last-child {
 }
 .subpage.product .phc h1 {
   margin: 0 0 2rem;
-  color: #e41370;
+  color: #0c3183;
   text-transform: uppercase;
 }
 .subpage.product .phc h2 {
