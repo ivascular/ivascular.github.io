@@ -25,7 +25,7 @@ titel = "Official brochure"
 [[icons]]
 interne_beschriftung = "Niere"
 [icons.icon]
-bild = "/uploads/2019/05/10/icon_niere.png"
+bild = "/uploads/2021/12/21/icon_niere_neu.png"
 titel = "Niere"
 
 +++
