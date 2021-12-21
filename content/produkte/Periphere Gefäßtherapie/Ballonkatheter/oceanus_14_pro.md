@@ -29,7 +29,7 @@ titel = "Instructions for use (IFU)"
 [[icons]]
 interne_beschriftung = "Unterschenkel"
 [icons.icon]
-bild = "/uploads/2019/05/10/icon_unterschenkel.png"
+bild = "/uploads/2021/12/21/icon_unterschenkel_neu.png"
 titel = "Unterschenkel"
 
 +++
