@@ -29,15 +29,17 @@ titel = "Documents"
 [[bereiche.dateien]]
 beschreibung = ""
 datei = "/uploads/2019/05/02/MP53001_Brochure-ENG_oceanus-35-ed3-feb18_SCREEN.pdf"
+externer_link = ""
 titel = "Official brochure"
 [[bereiche.dateien]]
 beschreibung = ""
 datei = "/uploads/2019/05/02/MP45001_IFU_oceanus35_ed2_jun15_SCREEN.compressed.pdf"
+externer_link = ""
 titel = "Instructions for use (IFU)"
 [[icons]]
 interne_beschriftung = "Becken"
 [icons.icon]
-bild = "/uploads/2019/05/10/icon_becken.png"
+bild = "/uploads/2021/12/21/icon_becken_neu.png"
 titel = "Becken"
 [[icons]]
 interne_beschriftung = "Oberschenkel"
