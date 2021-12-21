@@ -37,12 +37,12 @@ titel = "Official brochure"
 [[icons]]
 interne_beschriftung = "Niere"
 [icons.icon]
-bild = "/uploads/2019/05/10/icon_niere.png"
+bild = "/uploads/2021/12/21/icon_niere_neu.png"
 titel = "Niere"
 [[icons]]
 interne_beschriftung = "Becken"
 [icons.icon]
-bild = "/uploads/2019/05/10/icon_becken.png"
+bild = "/uploads/2021/12/21/icon_becken_neu.png"
 titel = "Becken"
 
 +++
