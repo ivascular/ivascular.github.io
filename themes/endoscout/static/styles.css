@@ -1186,6 +1186,11 @@ footer .footermenu a:last-child {
   text-transform: uppercase;
   margin: 0 0 1rem 0!important;
 }
+.subpage.product .psec.K h1,
+.subpage.product .psec.K h2,
+.subpage.product .psec.K h3 {
+  color: #e41370;
+}
 .subpage.product .psec .content {
   color: #1e1e1e;
 }
@@ -1269,6 +1274,11 @@ footer .footermenu a:last-child {
   color: #0c3183;
   font-size: 1.1rem;
   font-weight: normal;
+}
+.subpage.product .phc.K h1,
+.subpage.product .phc.K h2,
+.subpage.product .phc.K h3 {
+  color: #e41370;
 }
 @media (max-width: 720px) {
   .subpage.product .phc {
