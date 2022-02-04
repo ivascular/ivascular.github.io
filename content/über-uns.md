@@ -38,8 +38,8 @@ beschriftung = "Marco Kölble"
 content = "<p><strong>Marco Kölble</strong><br>Geschäftsführer<br>0761-458948-0</p><p><a href=\"mkoelble@ivascular.global\" title=\"\">mkoelble@ivascular.global</a></p>"
 mitarbeiter_bild = "/uploads/2021/12/08/110-1100707_person-avatar-placeholder-png.jpeg"
 [[team.mitarbeiter]]
-beschriftung = "Marco Kölble"
-content = "<p><strong>Marco Kölble</strong><br>COO<br>0761-458948-13</p><p><a href=\"mailto:marco.koelble@endoscout.de\" title=\"\">marco.koelble@endoscout.de</a></p>"
+beschriftung = "Ralf Beck"
+content = "<p><strong>Dr. Ralf Beck</strong><br>Commercial Manager DACH<br>0761-458948-0</p><p><a href=\"mailto:rbeck@ivascular.global\" title=\"\">rbeck@ivascular.global</a></p>"
 mitarbeiter_bild = "/uploads/2021/12/08/110-1100707_person-avatar-placeholder-png.jpeg"
 [[team.mitarbeiter]]
 beschriftung = "Ellen Körber"
