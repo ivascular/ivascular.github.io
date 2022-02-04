@@ -49,6 +49,10 @@ mitarbeiter_bild = "/uploads/2021/12/08/110-1100707_person-avatar-placeholder-pn
 beschriftung = "Lukas Roth"
 content = "<p><strong>Lukas Roth</strong><br>Customer Service <br>0761-458948-14</p><p><a href=\"mailto:lroth@ivascular.global\" title=\"\">lroth@ivascular.global</a></p>"
 mitarbeiter_bild = "/uploads/2021/12/08/110-1100707_person-avatar-placeholder-png.jpeg"
+[[team.mitarbeiter]]
+beschriftung = "Ralf Hawa"
+content = "<p><strong>Ralf Hawa</strong><br>Customer Service <br>0761-458948-12</p><p><a href=\"mailto:rhawa@ivascular.global\" title=\"\">rhawa@ivascular.global</a></p>"
+mitarbeiter_bild = ""
 [[geschaeftsbereiche]]
 logos = []
 titel_lang = "[endocare]IP-INTERVENTIONAL PRODUCTS"
