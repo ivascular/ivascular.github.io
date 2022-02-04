@@ -35,7 +35,7 @@ titel = "Team"
 farbe = "blue:rgb(12,49,131)"
 [[team.mitarbeiter]]
 beschriftung = "Marco Kölble"
-content = "<p><strong>Marco Kölble</strong><br>Geschäftsführer<br>0761-458948-0</p><p><a href=\"mkoelble@ivascular.global\" title=\"\">mkoelble@ivascular.global</a></p>"
+content = "<p><strong>Marco Kölble</strong><br>Geschäftsführer<br>0761-458948-0</p><p><a href=\"mailto:mkoelble@ivascular.global\" title=\"\">mkoelble@ivascular.global</a></p>"
 mitarbeiter_bild = "/uploads/2021/12/08/110-1100707_person-avatar-placeholder-png.jpeg"
 [[team.mitarbeiter]]
 beschriftung = "Ralf Beck"
