@@ -46,8 +46,8 @@ beschriftung = "Ellen Körber"
 content = "<p><strong>Ellen Körber</strong><br>Customer Service <br>0761-458948-13</p><p><a href=\"mailto:ellen.koerber@endoscout.de\" title=\"\">ellen.koerber@endoscout.de</a></p>"
 mitarbeiter_bild = "/uploads/2021/12/08/110-1100707_person-avatar-placeholder-png.jpeg"
 [[team.mitarbeiter]]
-beschriftung = "Jan Kölble"
-content = "<p><strong>Jan Kölble</strong><br>Customer Service <br>0761-458948-12</p><p>j<a href=\"mailto:an.koelble@endoscout.de\" title=\"\">an.koelble@endoscout.de</a></p>"
+beschriftung = "Lukas Roth"
+content = "<p><strong>Lukas Roth</strong><br>Customer Service <br>0761-458948-14</p><p><a href=\"mailto:lroth@ivascular.global\" title=\"\">lroth@ivascular.global</a></p>"
 mitarbeiter_bild = "/uploads/2021/12/08/110-1100707_person-avatar-placeholder-png.jpeg"
 [[geschaeftsbereiche]]
 logos = []
