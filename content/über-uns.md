@@ -1,7 +1,7 @@
 +++
 date = "2019-04-13T08:05:25+02:00"
 layout = "about"
-seo_description = "endoscout - endoscout mit Firmensitz in Freiburg ist ein innovatives und global vernetztes Unternehmen im Bereich der Medizintechnik. Das Unternehmen gliedert sich in die beiden Geschäftsbereiche endotrade, den Direktvertrieb interventioneller Produkte, sowie dem Geschäftsbereich endocare in dem endoscout als Full-Service- Dienstleister in den Bereichen EInkauf, Logistik und Abrechnung auf dem Gebiet der ambulanten Behandlung tätig ist. "
+seo_description = "iVascular - iVascular mit Firmensitz in Freiburg ist ein innovatives und global vernetztes Unternehmen im Bereich der Medizintechnik. Das Unternehmen gliedert sich in die beiden Geschäftsbereiche endotrade, den Direktvertrieb interventioneller Produkte, sowie dem Geschäftsbereich endocare in dem endoscout als Full-Service- Dienstleister in den Bereichen EInkauf, Logistik und Abrechnung auf dem Gebiet der ambulanten Behandlung tätig ist. "
 title = "Über uns"
 [endoscout_infoblock]
 beschriftung_link_button = ""
