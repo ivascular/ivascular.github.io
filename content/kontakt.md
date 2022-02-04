@@ -1,7 +1,7 @@
 +++
 date = "2019-04-13T08:07:14+02:00"
 layout = "kontakt"
-seo_description = "Kontakt - endoscout GmbH Deichelweiherweg 1, 79102 Freiburg, Tel. +49 (761) 458948-0, Fax. +49 (761) 458948-99, info@endoscout.de"
+seo_description = "Kontakt - iVascular GmbH Deichelweiherweg 1, 79102 Freiburg, Tel. +49 (761) 458948-0, Fax. +49 (761) 458948-99, de.customerservice@ivascular.global"
 title = "Kontakt"
 [content]
 content = "<p>Schreiben Sie uns, oder rufen Sie uns an, wir sind für Sie da. Oder vereinbaren Sie einfach einen Termin. </p><p>endoscout GmbH<br>Deichelweiherweg 1<br>79102 Freiburg</p><p>Tel. +49 (761) 458948-0<br>Fax. +49 (761) 458948-99</p>"
