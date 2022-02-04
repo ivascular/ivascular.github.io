@@ -34,8 +34,8 @@ titel = "Team"
 [team.titel.textfarbe]
 farbe = "blue:rgb(12,49,131)"
 [[team.mitarbeiter]]
-beschriftung = "Heinz Kölble"
-content = "<p><strong>Heinz Kölble</strong><br>Geschäftsführer/Inhaber <br>0761-458948-0</p><p><a href=\"mailto:heinz.koelble@endoscout.de\" title=\"\">heinz.koelble@endoscout.de</a></p>"
+beschriftung = "Marco Kölble"
+content = "<p><strong>Marco Kölble</strong><br>Geschäftsführer<br>0761-458948-0</p><p><a href=\"mkoelble@ivascular.global\" title=\"\">mkoelble@ivascular.global</a></p>"
 mitarbeiter_bild = "/uploads/2021/12/08/110-1100707_person-avatar-placeholder-png.jpeg"
 [[team.mitarbeiter]]
 beschriftung = "Marco Kölble"
