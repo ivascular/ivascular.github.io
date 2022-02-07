@@ -59,7 +59,7 @@ farbe = "black:rgb(0,0,0)"
 farbe = "grau:rgb(233,233,233)"
 [infoblock_endoscout.titel]
 titel = "WER WIR SIND"
-untertitel = "Endoscout"
+untertitel = "iVascular"
 [infoblock_endoscout.titel.textfarbe]
 farbe = "blue:rgb(12,49,131)"
 [menu.main]
