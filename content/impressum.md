@@ -9,15 +9,15 @@ weight = 2
 +++
 **Verantwortlich für den Inhalt:**
 
-endoscout GmbH  
+iVascular GmbH  
 Deichelweiherweg 1  
 D-79102 Freiburg
 
 Tel.: +49-761-458948-0  
 Fax.: +49-761-458948-99  
-E-Mail: [info@endoscout.de](mailto:info@endoscout.de)
+E-Mail: de.customerservice@ivascular.global
 
-Geschäftsführer: Heinz Kölble  
+Geschäftsführer: Marco Kölble  
 HRB 705617, Amtsgericht Freiburg i.Br.  
 USt-ID.: DE272868118
 
