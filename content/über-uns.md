@@ -43,7 +43,7 @@ content = "<p><strong>Dr. Ralf Beck</strong><br>Commercial Manager DACH<br>0151-
 mitarbeiter_bild = "/uploads/2021/12/08/110-1100707_person-avatar-placeholder-png.jpeg"
 [[team.mitarbeiter]]
 beschriftung = "Ellen Körber"
-content = "<p><strong>Ellen Körber</strong><br>Customer Service <br>0761-458948-13</p><p><a href=\"mailto:ellen.koerber@endoscout.de\" title=\"\">ellen.koerber@endoscout.de</a></p>"
+content = "<p><strong>Ellen Körber</strong><br>Customer Service <br>0761-458948-13</p><p><a href=\"mailto:ekoerber@ivascular.global\" title=\"\" editing=\"\" creating=\"\">ekoerber@ivascular.global</a></p>"
 mitarbeiter_bild = "/uploads/2021/12/08/110-1100707_person-avatar-placeholder-png.jpeg"
 [[team.mitarbeiter]]
 beschriftung = "Lukas Roth"
