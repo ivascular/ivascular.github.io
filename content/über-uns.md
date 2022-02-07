@@ -39,7 +39,7 @@ content = "<p><strong>Marco Kölble</strong><br>Geschäftsführer<br>0761-458948
 mitarbeiter_bild = "/uploads/2021/12/08/110-1100707_person-avatar-placeholder-png.jpeg"
 [[team.mitarbeiter]]
 beschriftung = "Ralf Beck"
-content = "<p><strong>Dr. Ralf Beck</strong><br>Commercial Manager DACH<br>0761-458948-0</p><p><a href=\"mailto:rbeck@ivascular.global\" title=\"\">rbeck@ivascular.global</a></p>"
+content = "<p><strong>Dr. Ralf Beck</strong><br>Commercial Manager DACH<br>0151-16639110</p><p><a href=\"mailto:rbeck@ivascular.global\" title=\"\">rbeck@ivascular.global</a></p>"
 mitarbeiter_bild = "/uploads/2021/12/08/110-1100707_person-avatar-placeholder-png.jpeg"
 [[team.mitarbeiter]]
 beschriftung = "Ellen Körber"
