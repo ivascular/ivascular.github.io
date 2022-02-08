@@ -2,6 +2,7 @@
 bereiche = []
 bild = "/uploads/2019/05/03/produktkatalog.jpg"
 content = "<p>Alle Produkte auf einen Blick zum durchblättern</p>"
+draft = true
 externer_link = "https://indd.adobe.com/view/a2a00661-e4ad-4c7d-8fcb-3d360fa7c1aa"
 katalog = ""
 linkbeschriftung = "jetzt entdecken"
