@@ -1,9 +1,6 @@
 {{ define "main" }} {{ $currentPage := . }}
 <div class="subpage mediathek">
   <div class="ui container standard">
-    <div class="pc">
-    {{ partial "productcatalog.html" . }}
-    </div>
     {{range .Params.bereiche}}
     <div class="sec">
       <h2>{{.titel}}</h2>
