@@ -1,5 +1,5 @@
 +++
-title = "Essential"
+title = "Essential pro"
 [menu.main]
 parent = "[K]Medikamentenbeschichtete Ballonkatheter"
 weight = 1
