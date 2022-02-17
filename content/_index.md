@@ -10,7 +10,7 @@ farbe = "weiss:rgb(255,255,255)"
 bild = "/uploads/2021/12/09/iv_white_transparent.png"
 farbe = "blue:rgb(12,49,131)"
 [content25_1.link]
-link = "mailto:info@endoscout.de"
+link = "mailto:de.customerservice@ivascular.global"
 linkbeschriftung = "E-Mail"
 [content25_1.link.linkfarbe]
 linkfarbe = "weiss"
