@@ -18,7 +18,7 @@ Main objective was to assess the effectiveness of Luminor drug coated balloon (D
 ![](/uploads/2019/09/23/effpac 24month p2.jpg)
 
 To view the complete presentation from Prof. Teichgräber about EFFPAC trial at EuroPCR 2019  
-[<< CLICK HERE >>](https://www.endoscout.de/uploads/2019/05/24/11_EuroPCR_2019_A15388ME_finalUT19.05.19.pdf)
+[<< CLICK HERE >>](https://www.ivascular.de/uploads/2019/05/24/11_EuroPCR_2019_A15388ME_finalUT19.05.19.pdf)
 
 Official article @ iVascular.global:  
 [<< CLICK HERE >>](https://www.ivascular.global/effpac-rct-24-month-has-revealed-in-europcr-2019-that-luminor-dcb-demonstrate-a-non-increase-of-risk-of-death-at-24-month-follow-up/)

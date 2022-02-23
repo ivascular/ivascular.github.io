@@ -13,4 +13,4 @@ TINTIN 1-year outcomes show a Primary Patency of 90.5%, freedom from TLR of 94.4
 
 [>> Official article @ iVascular.global](https://ivascular.global/tintin-trial-1-year-outcomes-presented-at-linc-2020/)
 
-[>> T.I.N.T.I.N. trial : Final 12-month data with the combination of Luminor DCB + iVolution stent in TASC C and D lesions](https://www.endoscout.de/uploads/2020/02/18/1727_Koen_Deloose_28_01_2020_Room_1_-_Main_Arena_1.pdf)
+[>> T.I.N.T.I.N. trial : Final 12-month data with the combination of Luminor DCB + iVolution stent in TASC C and D lesions](https://www.ivascular.de/uploads/2020/02/18/1727_Koen_Deloose_28_01_2020_Room_1_-_Main_Arena_1.pdf)

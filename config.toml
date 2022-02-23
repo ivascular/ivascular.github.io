@@ -1,4 +1,4 @@
-baseURL = "https://www.endoscout.de"
+baseURL = "https://www.ivascular.de"
 languageCode = "de-de"
 theme = "endoscout"
-title = "endoscout"
+title = "ivascular"

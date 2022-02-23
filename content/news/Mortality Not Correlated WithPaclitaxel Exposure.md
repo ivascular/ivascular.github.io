@@ -7,7 +7,7 @@ zusammenfassung = "A new study of designated physicians determines that there is
 +++
 ## Mortality Not Correlated With Paclitaxel Exposure: An Independent Patient-Level Meta-Analysis of a Drug-Coated Balloon
 
-[**>> DOWNLOAD FULL ARTICLE <<**](https://www.endoscout.de/uploads/2019/05/24/MortalityNotCorrelated.pdf)
+[**>> DOWNLOAD FULL ARTICLE <<**](https://www.ivascular.de/uploads/2019/05/24/MortalityNotCorrelated.pdf)
 
 **Background**
 
@@ -33,4 +33,4 @@ Central Illustration
 
 ![](/uploads/2019/05/28/Kaplan Meier All cause death Paclitaxel dosage.jpg)
 
-[**>> DOWNLOAD FULL ARTICLE <<**](https://www.endoscout.de/uploads/2019/05/24/MortalityNotCorrelated.pdf)
+[**>> DOWNLOAD FULL ARTICLE <<**](https://www.ivascular.de/uploads/2019/05/24/MortalityNotCorrelated.pdf)
