@@ -17,7 +17,7 @@ Tel.: +49-761-458948-0
 Fax.: +49-761-458948-99  
 E-Mail: de.customerservice@ivascular.global
 
-Geschäftsführer: Marco Kölble  
+Geschäftsführer: Dr. Ralf Beck  
 HRB 705617, Amtsgericht Freiburg i.Br.  
 USt-ID.: DE272868118
 
