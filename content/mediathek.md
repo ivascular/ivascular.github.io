@@ -245,11 +245,5 @@ datei = "/uploads/2019/05/11/EFFPAC-wo-temp-data.pdf"
 externer_link = ""
 icon = "pdf"
 titel = "EffPac – Trial: Assessment of the Effectiveness of DCB versus POBA in the SFA (U. Teichgräber)"
-[[bereiche.abschnitte.dateien]]
-beschreibung = "<p>VascuFlex® Multi-LOC</p>"
-datei = "/uploads/2019/05/11/1642_Klaus_Amendt_25_01_2017_Room_1_-_Main_Arena_1.pdf"
-externer_link = ""
-icon = "pdf"
-titel = "6-month results of the LOCOMOTIVE registry investigating spot stenting in the femoropopliteal tract (K. Amendt)"
 
 +++
