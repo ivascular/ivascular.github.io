@@ -2,7 +2,7 @@
 datum = 2020-07-21T22:00:00Z
 seo_description = ""
 titel = "Two-year Review on Mortality and Morbidity after Femoropopliteal Drug-coated Balloon Angioplasty in the Randomized EffPac Trial"
-zusammenfassung = "Extended safety review including patients who were lost to follow-up at 2 years revealed no evidence of an increased risk of all-cause mortality after femoropopliteal drug-coated balloon angioplasty."
+zusammenfassung = "Five-year final result on DCB Luminor from randomized EffPac trial  \nThe final 5-year results showed no difference in long term safety between Luminor DCB and POBA, clinical improvement remains stable"
 
 +++
-[https://pubs.rsna.org/doi/10.1148/radiol.2020201370](https://pubs.rsna.org/doi/10.1148/radiol.2020201370 "https://pubs.rsna.org/doi/10.1148/radiol.2020201370")
+[read more](/uploads/2022/09/26/effpac-5-year-ppt-eng.pdf "read more")
