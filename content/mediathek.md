@@ -90,6 +90,14 @@ titel = "Erektile Dysfunktion vaskulärer Genese"
 [[bereiche]]
 titel = "Veranstaltungen"
 [[bereiche.abschnitte]]
+titel = "LINC 2022"
+[[bereiche.abschnitte.dateien]]
+beschreibung = "<p>Multicenter Randomized Controlled Trial to Assess the Eff ectiveness of Pac litaxel coated<br>Luminor® Balloon Catheter versus Uncoated Balloon Catheter in the Superficial Femoral and<br>Popliteal Arteries to Prevent Vessel Restenosis or Reocclusion</p>"
+datei = ""
+externer_link = "/uploads/2022/09/26/effpac-5-year-ppt-eng.pdf"
+icon = ""
+titel = "EFFPAC trial"
+[[bereiche.abschnitte]]
 titel = "LINC2020 - Leipzig Interventional Course"
 [[bereiche.abschnitte.dateien]]
 beschreibung = "<p>luminor</p>"
