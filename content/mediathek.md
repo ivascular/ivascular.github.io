@@ -68,14 +68,6 @@ externer_link = ""
 icon = "pdf"
 titel = "Endovascular Therapy for Erectile Dysfunction—Who Benefits Most_ Insights From a Single-Center Experience"
 [[bereiche.abschnitte]]
-titel = "2018"
-[[bereiche.abschnitte.dateien]]
-beschreibung = "<p>chocolate touch</p>"
-datei = "/uploads/2019/05/03/Leigh_et_al-2018-Clinical_Case_Reports-2.pdf"
-externer_link = ""
-icon = "pdf"
-titel = " Recanalization of bilateral axillaris/brachialis artery occlusion in a patient with Takayashu arteritis: First case report on using a novel drug‐coated nitinol “chocolate” balloon catheter"
-[[bereiche.abschnitte]]
 titel = "2017"
 [[bereiche.abschnitte.dateien]]
 beschreibung = "<p>angiolite</p>"
