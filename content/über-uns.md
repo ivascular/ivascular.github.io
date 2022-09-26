@@ -35,7 +35,7 @@ titel = "Team"
 farbe = "blue:rgb(12,49,131)"
 [[team.mitarbeiter]]
 beschriftung = "Romana Stoewesand"
-content = ""
+content = "<p><strong>Romana Stoewesand</strong><br>Territory Manager West<br><a href=\"mailto:rstoewesand@ivascular.global\">rstoewesand@ivascular.global</a></p>"
 mitarbeiter_bild = "/uploads/2021/12/08/110-1100707_person-avatar-placeholder-png.jpeg"
 [[team.mitarbeiter]]
 beschriftung = "Ralf Beck"
