@@ -34,10 +34,6 @@ titel = "Team"
 [team.titel.textfarbe]
 farbe = "blue:rgb(12,49,131)"
 [[team.mitarbeiter]]
-beschriftung = "Romana Stoewesand"
-content = "<p><strong>Romana Stoewesand</strong><br>Territory Manager West<br><a href=\"mailto:rstoewesand@ivascular.global\">rstoewesand@ivascular.global</a></p>"
-mitarbeiter_bild = "/uploads/2021/12/08/110-1100707_person-avatar-placeholder-png.jpeg"
-[[team.mitarbeiter]]
 beschriftung = "Ralf Beck"
 content = "<p><strong>Dr. Ralf Beck</strong><br>Geschäftsführer<br>0151-16639110</p><p><a href=\"mailto:rbeck@ivascular.global\" title=\"\">rbeck@ivascular.global</a></p>"
 mitarbeiter_bild = "/uploads/2021/12/08/110-1100707_person-avatar-placeholder-png.jpeg"
@@ -52,6 +48,10 @@ mitarbeiter_bild = "/uploads/2021/12/08/110-1100707_person-avatar-placeholder-pn
 [[team.mitarbeiter]]
 beschriftung = "Urs Metzger"
 content = "<p><strong>Urs Metzger</strong><br>Customer Service<br>0761-458948-13<br><a href=\"mailto:umetzger@ivascular.global\">umetzger@ivascular.global</a></p>"
+mitarbeiter_bild = "/uploads/2021/12/08/110-1100707_person-avatar-placeholder-png.jpeg"
+[[team.mitarbeiter]]
+beschriftung = "Romana Stoewesand"
+content = "<p><strong>Romana Stoewesand</strong><br>Territory Manager West<br><a href=\"mailto:rstoewesand@ivascular.global\">rstoewesand@ivascular.global</a></p>"
 mitarbeiter_bild = "/uploads/2021/12/08/110-1100707_person-avatar-placeholder-png.jpeg"
 [[team.mitarbeiter]]
 beschriftung = "Jürgen Gruber"
