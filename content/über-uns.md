@@ -25,7 +25,7 @@ weight = 3
 [menu.mobil]
 weight = 4
 [team]
-content = "<p>Unser Team mit langjähriger Erfahrung im Medizintechnik-Bereich steht Ihnen gerne bei all Ihren Fragen zur Seite. Flexible und schnelle Lösungen sind unsere Stärke, sprechen Sie uns einfach an.</p>"
+content = "<p>Unser Team mit langjähriger Erfahrung im Medizintechnik-Bereich steht Ihnen gerne bei all Ihren Fragen zur Seite. Flexible und schnelle Lösungen sind unsere Stärke, sprechen Sie uns einfach an. Anfragen zu unseren Produkten und Bestellungen richten Sie bitte an <a href=\"mailto:de.customerservice@ivascular.global\" title=\"de.customerservice@ivascular.global\">de.customerservice@ivascular.global</a></p>"
 untertitel = "iVascular"
 [team.hintergrundfarbe]
 farbe = "grau:rgb(233,233,233)"
@@ -33,6 +33,10 @@ farbe = "grau:rgb(233,233,233)"
 titel = "Team"
 [team.titel.textfarbe]
 farbe = "blue:rgb(12,49,131)"
+[[team.mitarbeiter]]
+beschriftung = "Jürgen Gruber"
+content = "<p><strong>Jürgen Gruber</strong><br>Territory Manager Süd <br>0151-57428011<br><a href=\"mailto:jgruber@ivascular.global\">jgruber@ivascular.global</a></p>"
+mitarbeiter_bild = "/uploads/2021/12/08/110-1100707_person-avatar-placeholder-png.jpeg"
 [[team.mitarbeiter]]
 beschriftung = "Ralf Beck"
 content = "<p><strong>Dr. Ralf Beck</strong><br>Geschäftsführer<br>0151-16639110</p><p><a href=\"mailto:rbeck@ivascular.global\" title=\"\">rbeck@ivascular.global</a></p>"
@@ -44,6 +48,10 @@ mitarbeiter_bild = "/uploads/2021/12/08/110-1100707_person-avatar-placeholder-pn
 [[team.mitarbeiter]]
 beschriftung = "Ralf Hawa"
 content = "<p><strong>Ralf Hawa</strong><br>Customer Service <br>0761-458948-12</p><p><a href=\"mailto:rhawa@ivascular.global\" title=\"\">rhawa@ivascular.global</a></p>"
+mitarbeiter_bild = "/uploads/2021/12/08/110-1100707_person-avatar-placeholder-png.jpeg"
+[[team.mitarbeiter]]
+beschriftung = "Urs Metzger"
+content = "<p><strong>Urs Metzger</strong><br>Customer Service<br>0761-458948-13<br><a href=\"mailto:umetzger@ivascular.global\">umetzger@ivascular.global</a></p>"
 mitarbeiter_bild = "/uploads/2021/12/08/110-1100707_person-avatar-placeholder-png.jpeg"
 [[geschaeftsbereiche]]
 logos = []
