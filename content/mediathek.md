@@ -233,12 +233,6 @@ icon = "pdf"
 titel = "Is there still any space left for DES in the BTK area ??? (Angiolite BTK trial, 6 month Data) (P. Goverde)"
 [[bereiche.abschnitte.dateien]]
 beschreibung = "<p>VascuFlex® Multi-LOC</p>"
-datei = "/uploads/2019/05/11/1415_Peter_Goverde_30_01_2018_Room_3_-_Technical_Forum_v2.pdf"
-externer_link = ""
-icon = "pdf"
-titel = "Spot Stenting with VascuFlex Multi-Loc (P. Goverde)"
-[[bereiche.abschnitte.dateien]]
-beschreibung = "<p>VascuFlex® Multi-LOC</p>"
 datei = "/uploads/2019/05/11/1045_Klaus_Amendt_30_01_2018_Room_1_-_Main_Arena_1_v2.pdf"
 externer_link = ""
 icon = "pdf"
