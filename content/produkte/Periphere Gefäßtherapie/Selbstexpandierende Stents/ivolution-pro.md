@@ -3,7 +3,7 @@ seo_description = ""
 title = "iVolution pro"
 [menu.main]
 parent = "[P]Selbstexpandierende Stents"
-weight = 4
+weight = 1
 [ueberblick]
 bild = "/uploads/2019/05/03/iVolution_1.png"
 content = "<p>2nd. generation self-expanding peripheral stent system</p><p></p><p><strong>Advantages:</strong></p><ul><li><p>Triple sheath</p></li><li><p>Ergonomic and small handle</p></li><li><p>Innovative stent design</p></li><li><p>Perfect balance between adaptability and arterial support</p></li><li><p>Stent-Lengths from 40mm up to 200mm</p></li><li><p>60% reduction of packaging size in comparison to iVolution 1st. generation</p></li></ul>"

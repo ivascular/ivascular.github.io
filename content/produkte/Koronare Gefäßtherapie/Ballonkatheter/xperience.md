@@ -2,7 +2,7 @@
 title = "Xperience"
 [menu.main]
 parent = "[K]Ballonkatheter"
-weight = 2
+weight = 1
 [ueberblick]
 bild = "/uploads/2019/05/16/alvi_210519.jpg"
 content = "<p>PTCA dilatation catheter</p><p></p><p><br><strong>Advantages:</strong></p><ul><li><p>Outstanding deliverability - excellent pushability and flexibility to reach an cross the most challenging lesions</p></li><li><p>Ultra-low tip and crossing profile</p></li><li><p>Tungsten radiopaque markers for more flexibility with optimal trackability</p></li></ul>"

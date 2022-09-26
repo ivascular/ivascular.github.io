@@ -2,7 +2,7 @@
 title = "Luminor 18"
 [menu.main]
 parent = "[P]Medikamentenbeschichtete Ballonkatheter"
-weight = 3
+weight = 2
 [ueberblick]
 bild = "/uploads/2019/05/06/luminor_18_small.jpg"
 content = "<p>Paclitaxel eluting PTA dilatation catheter</p><p></p><p><br><strong>Advantages:</strong></p><ul><li><p>Nanotechnology dosage system. Ultra-thin coating</p></li><li><p>Assured coating stability during navigation</p></li><li><p>Homogeneous &amp; anti-cracking coating</p></li><li><p>Safe and precise delivery of Paclitaxel</p></li></ul>"

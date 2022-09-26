@@ -93,9 +93,9 @@ titel = "Veranstaltungen"
 titel = "LINC 2022"
 [[bereiche.abschnitte.dateien]]
 beschreibung = "<p>Multicenter Randomized Controlled Trial to Assess the Eff ectiveness of Pac litaxel coated<br>Luminor® Balloon Catheter versus Uncoated Balloon Catheter in the Superficial Femoral and<br>Popliteal Arteries to Prevent Vessel Restenosis or Reocclusion</p>"
-datei = ""
-externer_link = "/uploads/2022/09/26/effpac-5-year-ppt-eng.pdf"
-icon = ""
+datei = "/uploads/2022/09/26/effpac-5-year-ppt-eng.pdf"
+externer_link = ""
+icon = "pdf"
 titel = "EFFPAC trial"
 [[bereiche.abschnitte]]
 titel = "LINC2020 - Leipzig Interventional Course"
