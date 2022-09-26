@@ -180,20 +180,6 @@ externer_link = ""
 icon = "pdf"
 titel = "BIBLIOS STUDY (K. Deloose)"
 [[bereiche.abschnitte]]
-titel = "CIRSE 2018"
-[[bereiche.abschnitte.dateien]]
-beschreibung = "<p>NiTiDES</p>"
-datei = "/uploads/2019/05/12/02-Innovative-SFA-lesions-treatment-with-NiTiDES-2.pdf"
-externer_link = ""
-icon = "pdf"
-titel = "Innovating SFA lesions treatment with NiTiDES (R. Langhoff)"
-[[bereiche.abschnitte.dateien]]
-beschreibung = "<p>NiTiDES</p>"
-datei = "/uploads/2019/05/12/03-The-ILLUMINA-Study-2.pdf"
-externer_link = ""
-icon = "pdf"
-titel = "The ILLUMINA Study NiTiDES First In Human Trial (D. Scheinert)"
-[[bereiche.abschnitte]]
 titel = "CX Symposium 2018"
 [[bereiche.abschnitte.dateien]]
 beschreibung = "<p>luminor</p>"
@@ -265,12 +251,6 @@ icon = "pdf"
 titel = "MAKE COMBINATION THERAPY GREAT AGAIN DCBS AND AND SPOT STENTS IN FEMPOP LESIONS (G. Tepe)"
 [[bereiche.abschnitte]]
 titel = "LINC 2017 - Leipzig Interventional Course"
-[[bereiche.abschnitte.dateien]]
-beschreibung = "<p>Chocolate touch</p>"
-datei = "/uploads/2019/05/11/1028_Andrew_Holden_25_01_2017_Room_5_-_Global_Expert_Exchange.pdf"
-externer_link = ""
-icon = "pdf"
-titel = "Final Results of the Feasibility Study for the Drug-coated Chocolate Touch PTA balloon of Femoropopliteal lesions: The ENDURE Trial (A. Holden)"
 [[bereiche.abschnitte.dateien]]
 beschreibung = "<p>iVolution</p>"
 datei = "/uploads/2019/05/11/1058_Peter_Goverde_25_01_2017_Room_5_-_Global_Expert_Exchange.pdf"
