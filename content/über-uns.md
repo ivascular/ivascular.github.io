@@ -49,7 +49,7 @@ mitarbeiter_bild = "/uploads/2021/12/08/110-1100707_person-avatar-placeholder-pn
 logos = []
 titel_lang = "[endocare]IP-INTERVENTIONAL PRODUCTS"
 [geschaeftsbereiche.content]
-content = "<p>Neben den Produkten unserer Muttergesellschaft iVascular S.L.U. sind wir exklusiver Vertriebspartner in Deutschland für nachfolgende Hersteller:</p><ul><li><p>Alvimedica</p></li><li><p>TriReme</p></li><li><p>Lifetech</p></li></ul><p>Diese ergänzen das breite Angebot von iVascular und deckt damit die Bedürfnisse für die cardiovaskuläre und peripher vaskuläre Interventionen ab.</p><p>Gerne stehen wir Ihnen bei Fragen oder für eine persönliche<br>Beratung zur Verfügung</p><p>Kontakt</p>"
+content = "<p>Neben den Produkten unserer Muttergesellschaft iVascular S.L.U. sind wir exklusiver Vertriebspartner in Deutschland für nachfolgenden Hersteller:</p><ul><li><p>Lifetech</p></li></ul><p>Diese ergänzen das breite Angebot von iVascular und deckt damit die Bedürfnisse für die cardiovaskuläre und peripher vaskuläre Interventionen ab.</p><p>Gerne stehen wir Ihnen bei Fragen oder für eine persönliche<br>Beratung zur Verfügung</p><p>Kontakt</p>"
 [geschaeftsbereiche.content.textfarbe]
 farbe = "grau:rgb(233,233,233)"
 [geschaeftsbereiche.hintergrundfarbe]
