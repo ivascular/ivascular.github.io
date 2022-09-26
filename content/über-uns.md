@@ -34,8 +34,8 @@ titel = "Team"
 [team.titel.textfarbe]
 farbe = "blue:rgb(12,49,131)"
 [[team.mitarbeiter]]
-beschriftung = "Jürgen Gruber"
-content = "<p><strong>Jürgen Gruber</strong><br>Territory Manager Süd <br>0151-57428011<br><a href=\"mailto:jgruber@ivascular.global\">jgruber@ivascular.global</a></p>"
+beschriftung = "Romana Stoewesand"
+content = ""
 mitarbeiter_bild = "/uploads/2021/12/08/110-1100707_person-avatar-placeholder-png.jpeg"
 [[team.mitarbeiter]]
 beschriftung = "Ralf Beck"
@@ -52,6 +52,10 @@ mitarbeiter_bild = "/uploads/2021/12/08/110-1100707_person-avatar-placeholder-pn
 [[team.mitarbeiter]]
 beschriftung = "Urs Metzger"
 content = "<p><strong>Urs Metzger</strong><br>Customer Service<br>0761-458948-13<br><a href=\"mailto:umetzger@ivascular.global\">umetzger@ivascular.global</a></p>"
+mitarbeiter_bild = "/uploads/2021/12/08/110-1100707_person-avatar-placeholder-png.jpeg"
+[[team.mitarbeiter]]
+beschriftung = "Jürgen Gruber"
+content = "<p><strong>Jürgen Gruber</strong><br>Territory Manager Süd <br>0151-57428011<br><a href=\"mailto:jgruber@ivascular.global\">jgruber@ivascular.global</a></p>"
 mitarbeiter_bild = "/uploads/2021/12/08/110-1100707_person-avatar-placeholder-png.jpeg"
 [[geschaeftsbereiche]]
 logos = []
