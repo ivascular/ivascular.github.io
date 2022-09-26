@@ -103,30 +103,6 @@ datei = "/uploads/2020/02/18/1727_Koen_Deloose_28_01_2020_Room_1_-_Main_Arena_1.
 externer_link = ""
 icon = "pdf"
 titel = "T.I.N.T.I.N. trial : Final 12-month data with the combination of Luminor DCB + iVolution stent in TASC C and D lesions"
-[[bereiche.abschnitte.dateien]]
-beschreibung = "<p>NiTiDES</p>"
-datei = "/uploads/2020/02/18/1320_Ralf_Langhoff_29_01_2020_Room_3_-_Technical_Forum.pdf"
-externer_link = ""
-icon = "pdf"
-titel = "NiTiDES: From theory to practice"
-[[bereiche.abschnitte.dateien]]
-beschreibung = "<p>NiTiDES</p>"
-datei = "/uploads/2020/02/18/1238_Stefan_Mller-Hlsbeck_29_01_2020_Room_3_-_Technical_Forum.pdf"
-externer_link = ""
-icon = "pdf"
-titel = "Why, when and where: the DES role in SFA treatment"
-[[bereiche.abschnitte.dateien]]
-beschreibung = "<p>NiTiDES</p>"
-datei = "/uploads/2020/02/18/1642_Dierk_Scheinert_28_01_2020_Room_1_-_Main_Arena_1_.pdf"
-externer_link = ""
-icon = "pdf"
-titel = "The ILLUMINA Study: 2-year results with a polymer free Sirolimus eluting DES in femoropopliteal arteries"
-[[bereiche.abschnitte.dateien]]
-beschreibung = "<p>NiTiDES</p>"
-datei = "/uploads/2020/02/18/03 Alvimedica Simposium LINC 2020 Kahlberg.pdf"
-externer_link = ""
-icon = "pdf"
-titel = "NiTiDES : the innovative approach of SFA lesions"
 [[bereiche.abschnitte]]
 titel = "EuroPCR 2019"
 [[bereiche.abschnitte.dateien]]
