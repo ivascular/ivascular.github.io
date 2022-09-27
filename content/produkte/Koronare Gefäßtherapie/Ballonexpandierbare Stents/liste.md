@@ -2,7 +2,7 @@
 date = "2019-04-13T11:57:18+02:00"
 layout = "productlist"
 monat = "2019-04-01T00:00:00+01:00"
-products = ["produkte/Koronare Gefäßtherapie/Ballonexpandierbare Stents/angiolite.md", "produkte/Koronare Gefäßtherapie/Ballonexpandierbare Stents/architect.md", "produkte/Koronare Gefäßtherapie/Ballonexpandierbare Stents/cre8.md", "produkte/Koronare Gefäßtherapie/Ballonexpandierbare Stents/cre8-evo.md", "produkte/Koronare Gefäßtherapie/Ballonexpandierbare Stents/avantgarde.md"]
+products = ["produkte/Koronare Gefäßtherapie/Ballonexpandierbare Stents/angiolite.md", "produkte/Koronare Gefäßtherapie/Ballonexpandierbare Stents/architect.md"]
 seo_description = "KORONAR Ballonexpandierbare Stents: Angiolite, Architect, Avantgarde, Cre8, Cre8 Evo"
 title = "[K]Ballonexpandierbare Stents"
 [header]
