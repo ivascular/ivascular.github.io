@@ -1125,7 +1125,9 @@ footer .footermenu a:last-child {
 .subpage.about .c50i50.team > * .ma {
   display: flex;
   justify-content: space-between;
-  padding: 3rem 2rem 1rem 2rem;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding: 2rem 0;
 }
 .subpage.about .c50i50.team > * .ma > * {
   color: #1e1e1e;

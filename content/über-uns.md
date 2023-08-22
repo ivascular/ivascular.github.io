@@ -57,6 +57,14 @@ mitarbeiter_bild = "/uploads/2021/12/08/110-1100707_person-avatar-placeholder-pn
 beschriftung = "Jürgen Gruber"
 content = "<p><strong>Jürgen Gruber</strong><br>Territory Manager Süd <br>0151-57428011<br><a href=\"mailto:jgruber@ivascular.global\">jgruber@ivascular.global</a></p>"
 mitarbeiter_bild = "/uploads/2021/12/08/110-1100707_person-avatar-placeholder-png.jpeg"
+[[team.mitarbeiter]]
+beschriftung = "Peter Pomagruk"
+content = "<p><strong>Peter Pomagruk</strong><br>Territory Manager Mitte <br>0151-57016224<br><a href=\"mailto:ppomagruk@ivascular.global\">ppomagruk@ivascular.global</a></p>"
+mitarbeiter_bild = "/uploads/2021/12/08/110-1100707_person-avatar-placeholder-png.jpeg"
+[[team.mitarbeiter]]
+beschriftung = "Jessika Matulat"
+content = "<p><strong>Jessika Matulat</strong><br>Territory Manager Nord <br>0171-4195623<br><a href=\"mailto:jmatulat@ivascular.global\">jmatulat@ivascular.global</a></p>"
+mitarbeiter_bild = "/uploads/2021/12/08/110-1100707_person-avatar-placeholder-png.jpeg"
 [[geschaeftsbereiche]]
 logos = []
 titel_lang = "[endocare]IP-INTERVENTIONAL PRODUCTS"
