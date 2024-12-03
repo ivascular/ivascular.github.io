@@ -5,7 +5,7 @@ seo_description = "iVascular - iVascular mit Firmensitz in Freiburg ist ein inno
 title = "Über uns"
 [endoscout_infoblock]
 beschriftung_link_button = ""
-bild = "/uploads/freiburg-wiwilibruecke-c-tichr-fotolia_grid_medium.jpg"
+bild = "/uploads/ivascular.png"
 farbe_link_button = ""
 link = ""
 link_button_qm = false
