@@ -13,7 +13,7 @@ iVascular GmbH
 Hanauer Landstraße 291A
 60314 Frankfurt
 
-Tel. +49 (069) 945159780
+Tel. +49 (069) 945159780 
 Fax. +49 (069) 945159786  
 E-Mail: de.customerservice@ivascular.global
 
