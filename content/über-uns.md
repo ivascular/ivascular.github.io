@@ -5,7 +5,7 @@ seo_description = "iVascular - iVascular mit Firmensitz in Frankfurt ist ein inn
 title = "Über uns"
 [endoscout_infoblock]
 beschriftung_link_button = ""
-bild = "/uploads/ivascular.png"
+bild = "/uploads/ivas.jpg"
 farbe_link_button = ""
 link = ""
 link_button_qm = false
