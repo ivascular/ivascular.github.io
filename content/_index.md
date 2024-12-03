@@ -107,8 +107,8 @@ titel = "Koronar"
 [produktbereiche.titel.textfarbe]
 farbe = "weiss:rgb(255,255,255)"
 [[slider]]
-bild = "/uploads/2021/05/04/bildschirmfoto-2021-05-04-um-21-52-38.png"
-content = "iVascular GmbH<br>Hanauer Landstraße 291A<br>60314 Frankfurt = ""
+bild = "/uploads/slide_umzug.jpg"
+content = "iVascular GmbH<br>Hanauer Landstraße 291A<br>60314 Frankfurt"
 link = ""
 link_button_beschriftung = ""
 link_button_qm = false
