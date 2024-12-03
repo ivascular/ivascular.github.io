@@ -62,14 +62,11 @@ Wir verwenden in dieser Datenschutzerklärung unter anderem die folgenden Begrif
 Verantwortlicher im Sinne der Datenschutz-Grundverordnung, sonstiger in den Mitgliedstaaten der Europäischen Union geltenden Datenschutzgesetze und anderer Bestimmungen mit datenschutzrechtlichem Charakter ist die:
 
 iVascular GmbH
+Hanauer Landstraße 291A
+60314 Frankfurt
 
-Deichelweiherweg 1
-
-79102 Freiburg
-
-Deutschland
-
-Tel.: 0761-4589480
+Tel. +49 (069) 945159780
+Fax. +49 (069) 945159786
 
 E-Mail: de.customerservice@ivascular.global
 
