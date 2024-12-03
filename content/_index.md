@@ -1,5 +1,5 @@
 +++
-seo_description = "Die iVascular GmbH mit Firmensitz in Freiburg ist aus der Übernahme der Firma Endoscout durch unsere spanische Mutter iVascular S.L.U hervorgegangen. "
+seo_description = "Die iVascular GmbH mit Firmensitz in Frankfurt ist aus der Übernahme der Firma Endoscout durch unsere spanische Mutter iVascular S.L.U hervorgegangen. "
 title = "Home"
 type = "page"
 [content25_1.content]
@@ -52,7 +52,7 @@ farbe_link_button = "orange"
 link = "über-uns.md"
 link_button_qm = true
 [infoblock_endoscout.content]
-content = "<p class=\"MsoNormal\">Die iVascular GmbH mit Firmensitz in Freiburg ist aus der Übernahme der Firma Endoscout durch unsere spanische Mutter iVascular S.L.U hervorgegangen. Das Unternehmen gliedert sich in die beiden Geschäftsbereiche Interventional Products-IP und endocare.</p><p class=\"MsoNormal\">Unser Ziel ist es Ärzten und Patienten Produkte zur Verfügung zu stellen, um die Behandlungsqualität sowie die Lebensqualität der Patienten nachhaltig zu verbessern.</p><p class=\"MsoNormal\">Mit unserem Engagement für wissenschaftliche Projekte und unseren Dienstleistungen im Bereich der ambulanten Versorgung verstehen wir uns als Bindeglied zwischen Industrie und unseren Kunden.</p>"
+content = "<p class=\"MsoNormal\">Die iVascular GmbH mit Firmensitz in Frankfurt ist aus der Übernahme der Firma Endoscout durch unsere spanische Mutter iVascular S.L.U hervorgegangen. Das Unternehmen gliedert sich in die beiden Geschäftsbereiche Interventional Products-IP und endocare.</p><p class=\"MsoNormal\">Unser Ziel ist es Ärzten und Patienten Produkte zur Verfügung zu stellen, um die Behandlungsqualität sowie die Lebensqualität der Patienten nachhaltig zu verbessern.</p><p class=\"MsoNormal\">Mit unserem Engagement für wissenschaftliche Projekte und unseren Dienstleistungen im Bereich der ambulanten Versorgung verstehen wir uns als Bindeglied zwischen Industrie und unseren Kunden.</p>"
 [infoblock_endoscout.content.textfarbe]
 farbe = "black:rgb(0,0,0)"
 [infoblock_endoscout.hintergrundfarbe]
