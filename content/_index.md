@@ -121,7 +121,7 @@ content = "Unsere neue Adresse:<br>
 Hanauer Landstraße 291A<br>
 60314 Frankfurt"
 content_hintergrundgrafik = ""
-link = "kontakt"
+link = "[kontakt](https://www.ivascular.de/kontakt/)"
 link_button_beschriftung = "weiterlesen"
 link_button_qm = true
 linktitel = "ACHTUNG!"
