@@ -47,7 +47,7 @@ titel = "Mediathek"
 farbe = "blue:rgb(12,49,131)"
 [infoblock_endoscout]
 beschriftung_link_button = "weiterlesen"
-bild = "/uploads/freiburg-wiwilibruecke-c-tichr-fotolia_grid_medium.jpg"
+bild = "/uploads/homeivas.jpg"
 farbe_link_button = "orange"
 link = "über-uns.md"
 link_button_qm = true
