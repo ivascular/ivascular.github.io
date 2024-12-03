@@ -113,6 +113,15 @@ content_hintergrundgrafik = ""
 link = ""
 link_button_beschriftung = ""
 link_button_qm = false
+linktitel = "Kontakt"
+titel = "ACHTUNG! Wir sind umgezogen"
+[[slider]]
+bild = "/uploads/2021/05/04/bildschirmfoto-2021-05-04-um-21-52-38.png"
+content = "iVascular has announced that the company has received CE-mark for their new balloon-expandable ePTFE covered stent!"
+content_hintergrundgrafik = ""
+link = ""
+link_button_beschriftung = ""
+link_button_qm = false
 linktitel = "Produkte > Peripher"
 titel = "iCOVER HAS RECEIVED CE-MARK!"
 [[slider]]
