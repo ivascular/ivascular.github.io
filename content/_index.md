@@ -121,11 +121,11 @@ content = "Unsere neue Adresse:<br>
 Hanauer Landstraße 291A<br>
 60314 Frankfurt"
 content_hintergrundgrafik = ""
-link = "[kontakt](https://www.ivascular.de/kontakt/)"
+link = "kontakt"
 link_button_beschriftung = "weiterlesen"
 link_button_qm = true
-linktitel = "ACHTUNG!"
-titel = "Wir sind umgezogen"
+linktitel = "kontakt"
+titel = "ACHTUNG! Wir sind umgezogen"
 [[slider]]
 bild = "/uploads/2020/03/23/TINTIN-TRIAL-IVASCULAR-2020.jpg"
 content = "TINTIN is a physician initiated, prospective, single arm multicenter trial, that investigates the safety and efficacy of the treatment with luminor DCB and iVolution self-expanding stent in TASC C and D femoropopliteal lesions.\n\nTINTIN 1-year outcomes show a Primary Patency of 90.5%, freedom from TLR of 94.4%. Safety has been proved with 0 device related deaths."
