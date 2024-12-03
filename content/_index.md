@@ -47,7 +47,7 @@ titel = "Mediathek"
 farbe = "blue:rgb(12,49,131)"
 [infoblock_endoscout]
 beschriftung_link_button = "weiterlesen"
-bild = "/uploads/homeivas.jpg"
+bild = "/uploads/frankfurt_home.jpg"
 farbe_link_button = "orange"
 link = "über-uns.md"
 link_button_qm = true
