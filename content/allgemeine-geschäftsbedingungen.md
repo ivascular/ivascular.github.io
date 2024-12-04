@@ -89,6 +89,6 @@ Erfüllungsort für Lieferung und Zahlung ist Freiburg. Es gilt das Recht der Bu
 Sollten einzelne Bestimmungen dieser Bedingungen insgesamt oder teilweise nichtig, unwirksam und/oder undurchführbar sein oder werden, wird hierdurch die Wirksamkeit der übrigen Bestimmungen nicht berührt. Nichtige, unwirksame und/oder undurchführbare Bestimmungen sind durch solche wirksamen und durchführbaren Regelungen zu ersetzen, die dem angestrebten wirtschaftlichen Zweck am nächsten kommen. Gleiches gilt, wenn diese Bedingungen eine Lücke enthalten sollten.
 
 Stand: 22. September 2010  
-iVascular GmbH,  
-Hanauer Landstraße 291 A
+iVascular GmbH  
+Hanauer Landstraße 291 A<br>
 60314 Frankfurt
