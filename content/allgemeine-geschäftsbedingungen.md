@@ -90,5 +90,5 @@ Sollten einzelne Bestimmungen dieser Bedingungen insgesamt oder teilweise nichti
 
 Stand: 22. September 2010  
 iVascular GmbH,  
-Deichelweiher 1  
-79102 Freiburg
+Hanauer Landstraße 291 A
+60314 Frankfurt
