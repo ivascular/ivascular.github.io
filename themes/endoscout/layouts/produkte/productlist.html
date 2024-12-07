@@ -4,7 +4,7 @@
   <div class="ui container standard">
     {{with .Params.header}}
     <div class="header" {{ printf "style=background:%s %s" (partial "colorextr" .hintergrundfarbe.farbe) | safeHTMLAttr }}>
-      <div style="{{with .hintergrundbild}}background:url({{partial "imgUrl" (dict "img" . "params" "c_scale,f_auto,h_200" )}}) right 1rem center no-repeat; background-size:auto 90%;{{end}}">
+      <div style="{{with .hintergrundbild}}background:url({{partial "imgUrl" (dict "img" . "params" "fit=scale-down,format=auto,height=200" )}}) right 1rem center no-repeat; background-size:auto 90%;{{end}}">
         <div class="ct" {{ printf "style=color:%s %s" (partial "colorextr" .titelfarbe.farbe) | safeHTMLAttr }}>
           <h1 {{ printf "style=color:%s %s" (partial "colorextr" .titelfarbe.farbe) | safeHTMLAttr }}>
             {{replaceRE "\\[.+\\]" "" $currentPage.Params.title}}
@@ -16,7 +16,7 @@
     {{range .Params.products}}
     {{ $p := $currentPage.Site.GetPage . }}
     <div class="product" {{ printf "style=border-color:%s" (partial "colorextr" $currentPage.Params.header.hintergrundfarbe.farbe) | safeHTMLAttr }}>
-        <div class="pimg" style="background:url({{partial "imgUrl" (dict "img" $p.Params.ueberblick.bild "params" "c_scale,f_auto,w_800" )}}) center center no-repeat;"></div>
+        <div class="pimg" style="background:url({{partial "imgUrl" (dict "img" $p.Params.ueberblick.bild "params" "fit=scale-down,format=auto,width=800" )}}) center center no-repeat;"></div>
         <div class="ptxt">
             <a href="{{relref $currentPage .}}">
               <h3 {{ printf "style=color:%s" (partial "colorextr" $currentPage.Params.header.hintergrundfarbe.farbe) | safeHTMLAttr }}>{{replaceRE "\\[.+\\]" "" $p.Params.title}}</h3>
@@ -25,7 +25,7 @@
                 {{range $p.Params.icons}}
                 {{with .icon}}
                 <div>
-                  <img src="{{partial "imgUrl" (dict "img" .bild "params" "c_scale,f_auto,h_100" )}}"/>
+                  <img src="{{partial "imgUrl" (dict "img" .bild "params" "fit=scale-down,format=auto,height=100" )}}"/>
                   {{.titel}}
                 </div>
                 {{end}}
