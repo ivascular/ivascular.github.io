@@ -82,7 +82,7 @@ Der Kunde wird darüber informiert, dass alle ihn betreffenden Daten aus der Ges
 
 **§ 10 Erfüllungsort, Gerichtsstand und anwendbares Recht**
 
-Erfüllungsort für Lieferung und Zahlung ist Freiburg. Es gilt das Recht der Bundesrepublik Deutschland mit Ausnahme des Kollisionsrechts. Die Anwendung des UN Kaufrechts ist ausgeschlossen. Gerichtsstand im Verkehr mit Kaufleuten ist Freiburg. Wir sind jedoch auch berechtigt, an jedem anderen gesetzlichen Gerichtsstand Klage zu erheben.
+Erfüllungsort für Lieferung und Zahlung ist Frankfurt. Es gilt das Recht der Bundesrepublik Deutschland mit Ausnahme des Kollisionsrechts. Die Anwendung des UN Kaufrechts ist ausgeschlossen. Gerichtsstand im Verkehr mit Kaufleuten ist Frankfurt. Wir sind jedoch auch berechtigt, an jedem anderen gesetzlichen Gerichtsstand Klage zu erheben.
 
 **§ 11 Schlussbestimmungen**
 
