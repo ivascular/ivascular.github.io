@@ -5,8 +5,8 @@
     {{$t:=(index (findRE "\\[.+\\]" .Params.menu.main.parent) 0)}}
            
     <div class="phc  {{replace (replace $t `[` ``) `]` ``}}">
-      <div class="pimg" style="background:url({{partial "imgUrl" (dict "img" .Params.ueberblick.bild "params" "c_scale,w_600,q_90,f_auto" )}}) center center no-repeat;"></div>
-      <div class="content"  style="{{with .Params.ueberblick.icon}}background:url({{partial "imgUrl" (dict "img" . "params" "c_scale,f_auto,h_100" )}}) right 2rem top 2rem no-repeat;{{end}}">
+      <div class="pimg" style="background:url({{partial "imgUrl" (dict "img" .Params.ueberblick.bild "params" "fit=scale-down,width=600,q_90,format=auto" )}}) center center no-repeat;"></div>
+      <div class="content"  style="{{with .Params.ueberblick.icon}}background:url({{partial "imgUrl" (dict "img" . "params" "fit=scale-down,format=auto,height=100" )}}) right 2rem top 2rem no-repeat;{{end}}">
         <h2>
             {{replaceRE "\\[.+\\]" "" .Params.menu.main.parent}}
             

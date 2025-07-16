@@ -4,7 +4,7 @@
 {{partial "breadcrumb" .}}
 <div class="ui container standard">
     {{with .Params.header}}
-  <div class=" c50i50" style="background:url({{partial "imgUrl" (dict "img" .bild "params" "c_scale,f_auto,w_800" )}}) center center no-repeat; background-size:cover;">
+  <div class=" c50i50" style="background:url({{partial "imgUrl" (dict "img" .bild "params" "fit=scale-down,format=auto,width=800" )}}) center center no-repeat; background-size:cover;">
     <div class="content_no_even_odd">
         <h4>{{.titel.untertitel}}</h4>
         <h3 {{ printf "style=color:%s" (partial "colorextr" .titel.textfarbe.farbe) | safeHTMLAttr }}>

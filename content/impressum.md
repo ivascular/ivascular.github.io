@@ -9,12 +9,12 @@ weight = 2
 +++
 **Verantwortlich für den Inhalt:**
 
-iVascular GmbH  
-Deichelweiherweg 1  
-D-79102 Freiburg
+iVascular GmbH
+Hanauer Landstraße 291A
+60314 Frankfurt
 
-Tel.: +49-761-458948-0  
-Fax.: +49-761-458948-99  
+Tel. +49 (069) 945159780 
+Fax. +49 (069) 945159786  
 E-Mail: de.customerservice@ivascular.global
 
 Geschäftsführer: Dr. Ralf Beck  

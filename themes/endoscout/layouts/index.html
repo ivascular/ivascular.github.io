@@ -10,8 +10,8 @@
       {{ range $x,$img := .Params.slider }}
       <li>
         <div class="slideritem">
-          <div class="pimg" style="background:url({{partial "imgUrl" (dict "img" .bild "params" "c_scale,f_auto,w_800" )}}) center center no-repeat;"></div>
-          <div class="ptxt" style="{{with $img.content_hintergrundgrafik}}background:url({{partial "imgUrl" (dict "img" $img.content_hintergrundgrafik "params" "c_scale,f_auto,h_200" )}}) right top no-repeat;{{end}}">
+          <div class="pimg" style="background:url({{partial "imgUrl" (dict "img" .bild "params" "fit=scale-down,format=auto,width=800" )}}) center center no-repeat;"></div>
+          <div class="ptxt" style="{{with $img.content_hintergrundgrafik}}background:url({{partial "imgUrl" (dict "img" $img.content_hintergrundgrafik "params" "fit=scale-down,format=auto,height=200" )}}) right top no-repeat;{{end}}">
               <a href="{{with $img.link}}{{relref $p $img.link }}{{end}}">
                 <h4>{{.linktitel}}</h4>
                 <h3>{{.titel}}</h3>
@@ -46,7 +46,7 @@
             <div class="txt">{{.beschriftung_link_button}}</div>
         </a>
     </div>
-    <div style="background:url({{partial "imgUrl" (dict "img" .bild "params" "c_scale,f_auto,w_800" )}}) center center no-repeat; background-size:cover;">
+    <div style="background:url({{partial "imgUrl" (dict "img" .bild "params" "fit=scale-down,format=auto,width=800" )}}) center center no-repeat; background-size:cover;">
     </div>
   </div>
   {{end}}

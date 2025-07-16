@@ -1,5 +1,5 @@
 +++
-seo_description = "Die iVascular GmbH mit Firmensitz in Freiburg ist aus der Übernahme der Firma Endoscout durch unsere spanische Mutter iVascular S.L.U hervorgegangen. "
+seo_description = "Die iVascular GmbH mit Firmensitz in Frankfurt ist aus der Übernahme der Firma Endoscout durch unsere spanische Mutter iVascular S.L.U hervorgegangen. "
 title = "Home"
 type = "page"
 [content25_1.content]
@@ -47,12 +47,12 @@ titel = "Mediathek"
 farbe = "blue:rgb(12,49,131)"
 [infoblock_endoscout]
 beschriftung_link_button = "weiterlesen"
-bild = "/uploads/freiburg-wiwilibruecke-c-tichr-fotolia_grid_medium.jpg"
+bild = "/uploads/frankfurt_home.jpg"
 farbe_link_button = "orange"
 link = "über-uns.md"
 link_button_qm = true
 [infoblock_endoscout.content]
-content = "<p class=\"MsoNormal\">Die iVascular GmbH mit Firmensitz in Freiburg ist aus der Übernahme der Firma Endoscout durch unsere spanische Mutter iVascular S.L.U hervorgegangen. Das Unternehmen gliedert sich in die beiden Geschäftsbereiche Interventional Products-IP und endocare.</p><p class=\"MsoNormal\">Unser Ziel ist es Ärzten und Patienten Produkte zur Verfügung zu stellen, um die Behandlungsqualität sowie die Lebensqualität der Patienten nachhaltig zu verbessern.</p><p class=\"MsoNormal\">Mit unserem Engagement für wissenschaftliche Projekte und unseren Dienstleistungen im Bereich der ambulanten Versorgung verstehen wir uns als Bindeglied zwischen Industrie und unseren Kunden.</p>"
+content = "<p class=\"MsoNormal\">Die iVascular GmbH mit Firmensitz in Frankfurt ist eine 100 % Tochter der  iVascular S.L.U, Barcelona. Das Unternehmen gliedert sich in die beiden Geschäftsbereiche Interventional Products-IP und endocare.</p><p class=\"MsoNormal\">Unser Ziel ist es Ärzten und Patienten Produkte zur Verfügung zu stellen, um die Behandlungsqualität sowie die Lebensqualität der Patienten nachhaltig zu verbessern.</p><p class=\"MsoNormal\">Mit unserem Engagement für wissenschaftliche Projekte und unseren Dienstleistungen im Bereich der ambulanten Versorgung verstehen wir uns als Bindeglied zwischen Industrie und unseren Kunden.</p>"
 [infoblock_endoscout.content.textfarbe]
 farbe = "black:rgb(0,0,0)"
 [infoblock_endoscout.hintergrundfarbe]
@@ -106,6 +106,14 @@ farbe = "weiss:rgb(255,255,255)"
 titel = "Koronar"
 [produktbereiche.titel.textfarbe]
 farbe = "weiss:rgb(255,255,255)"
+[[slider]]
+bild = "/uploads/slide_umzug.jpg"
+content = "iVascular GmbH<br>Hanauer Landstraße 291A<br>60314 Frankfurt"
+link = ""
+link_button_beschriftung = ""
+link_button_qm = false
+linktitel = "Kontakt"
+titel = "ACHTUNG! Wir sind umgezogen"
 [[slider]]
 bild = "/uploads/2021/05/04/bildschirmfoto-2021-05-04-um-21-52-38.png"
 content = "iVascular has announced that the company has received CE-mark for their new balloon-expandable ePTFE covered stent!"

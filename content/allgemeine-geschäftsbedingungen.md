@@ -82,13 +82,13 @@ Der Kunde wird darüber informiert, dass alle ihn betreffenden Daten aus der Ges
 
 **§ 10 Erfüllungsort, Gerichtsstand und anwendbares Recht**
 
-Erfüllungsort für Lieferung und Zahlung ist Freiburg. Es gilt das Recht der Bundesrepublik Deutschland mit Ausnahme des Kollisionsrechts. Die Anwendung des UN Kaufrechts ist ausgeschlossen. Gerichtsstand im Verkehr mit Kaufleuten ist Freiburg. Wir sind jedoch auch berechtigt, an jedem anderen gesetzlichen Gerichtsstand Klage zu erheben.
+Erfüllungsort für Lieferung und Zahlung ist Frankfurt. Es gilt das Recht der Bundesrepublik Deutschland mit Ausnahme des Kollisionsrechts. Die Anwendung des UN Kaufrechts ist ausgeschlossen. Gerichtsstand im Verkehr mit Kaufleuten ist Frankfurt. Wir sind jedoch auch berechtigt, an jedem anderen gesetzlichen Gerichtsstand Klage zu erheben.
 
 **§ 11 Schlussbestimmungen**
 
 Sollten einzelne Bestimmungen dieser Bedingungen insgesamt oder teilweise nichtig, unwirksam und/oder undurchführbar sein oder werden, wird hierdurch die Wirksamkeit der übrigen Bestimmungen nicht berührt. Nichtige, unwirksame und/oder undurchführbare Bestimmungen sind durch solche wirksamen und durchführbaren Regelungen zu ersetzen, die dem angestrebten wirtschaftlichen Zweck am nächsten kommen. Gleiches gilt, wenn diese Bedingungen eine Lücke enthalten sollten.
 
 Stand: 22. September 2010  
-iVascular GmbH,  
-Deichelweiher 1  
-79102 Freiburg
+iVascular GmbH  
+Hanauer Landstraße 291 A<br>
+60314 Frankfurt

@@ -4,16 +4,16 @@
     <div id="logotel">
       <div class="logow">
         <a href="/" id="logolink">
-          <img class="logo" src="{{partial "imgUrl" (dict "img" $t.Params.logo "params" "c_scale,h_80,q_100" )}}" />
+          <img class="logo" src="{{partial "imgUrl" (dict "img" $t.Params.logo "params" "fit=scale-down,height=80,q_100" )}}" />
         </a>
       </div>
       <div class="adrtel">
         <div>
-          <img src="{{partial "imgUrl" (dict "img" $t.Params.icon_tel "params" "c_scale,h_30,q_100" )}}" />
+          <img src="{{partial "imgUrl" (dict "img" $t.Params.icon_tel "params" "fit=scale-down,height=30,q_100" )}}" />
           <div>{{$t.Params.tel|safeHTML}}</div>
         </div>
         <div>
-          <img src="{{partial "imgUrl" (dict "img" $t.Params.icon_adresse "params" "c_scale,h_30,q_100" )}}" />
+          <img src="{{partial "imgUrl" (dict "img" $t.Params.icon_adresse "params" "fit=scale-down,height=30,q_100" )}}" />
           <div>{{$t.Params.adresse|safeHTML}}</div>
         </div>
       </div>
