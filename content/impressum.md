@@ -18,7 +18,7 @@ Fax. +49 (069) 945159786
 E-Mail: de.customerservice@ivascular.global
 
 Geschäftsführer: Dr. Ralf Beck  
-HRB 137325, Amtsgericht Frankfurt
+HRB 137325, Amtsgericht Frankfurt  
 USt-ID.: DE272868118
 
 **Design und Konzept:**  
