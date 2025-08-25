@@ -2,7 +2,7 @@
 date = "2019-04-13T11:57:18+02:00"
 layout = "productgroupslist"
 monat = "2019-04-01T00:00:00+01:00"
-seo_description = "Periphere Gefäßtherapie: Ballonkatheter, Extraktionskatheter, Medikamentenbeschichtete Ballonkatheter,  Selbstexpandierende Stents, Vascular Plugs"
+seo_description = "Periphere Gefäßtherapie: Ballonkatheter, Extraktionskatheter, Medikamentenbeschichtete Ballonkatheter,  Selbstexpandierende Stents"
 title = "Periphere Gefäßtherapie"
 [header]
 hintergrundbild = "/uploads/2021/12/09/icon-peripher-white.png"
@@ -35,11 +35,6 @@ bild = "/uploads/2019/05/08/Selbstexpandierende-Stents_endoscout_kategorie_bilde
 link = "produkte/Periphere Gefäßtherapie/Selbstexpandierende Stents/liste.md"
 linkbeschriftung = "weiter"
 titel = "Selbstexpandierende Stents"
-[[bereiche]]
-bild = "/uploads/2019/05/08/Vascular-Plugs_endoscout_kategorie_bilder.png"
-link = "produkte/Periphere Gefäßtherapie/Vascular Plugs/liste.md"
-linkbeschriftung = "weiter"
-titel = "Vascular Plugs"
 [[bereiche]]
 bild = "/uploads/2020/08/10/supportkat"
 link = "produkte/Periphere Gefäßtherapie/Supportkatheter/liste.md"
