@@ -83,7 +83,7 @@ farbe = "black:rgb(0,0,0)"
 [news.titelfarbe]
 farbe = "magenta:rgb(228,19,112)"
 [[produktbereiche]]
-content = "<ul><li><p><a href=\"produkte/periphere-gefäßtherapie/ballonkatheter/liste/\" title=\"\">Ballonkatheter</a></p></li><li><p><a href=\"/produkte/periphere-gefäßtherapie/medikamentenbeschichtete-ballonkatheter/liste/\" title=\"\">Medikamentenbeschichtete Ballonkathter</a></p></li><li><p><a href=\"/produkte/periphere-gefäßtherapie/extraktionskatheter/liste/\" title=\"\">Extraktionskatheter</a></p></li><li><p><a href=\"/produkte/periphere-gefäßtherapie/ballonexpandierbare-stents/liste/\" title=\"\">Ballonexpandierbare Stents</a></p></li><li><p><a href=\"/produkte/periphere-gefäßtherapie/selbstexpandierende-stents/liste/\" title=\"\">Selbstexpandierende Stents</a></p></li><li><p><a href=\"/produkte/periphere-gefäßtherapie/vascular-plugs/liste/\" title=\"\">Vascular Plugs</a></p></li></ul>"
+content = "<ul><li><p><a href=\"produkte/periphere-gefäßtherapie/ballonkatheter/liste/\" title=\"\">Ballonkatheter</a></p></li><li><p><a href=\"/produkte/periphere-gefäßtherapie/medikamentenbeschichtete-ballonkatheter/liste/\" title=\"\">Medikamentenbeschichtete Ballonkathter</a></p></li><li><p><a href=\"/produkte/periphere-gefäßtherapie/extraktionskatheter/liste/\" title=\"\">Extraktionskatheter</a></p></li><li><p><a href=\"/produkte/periphere-gefäßtherapie/ballonexpandierbare-stents/liste/\" title=\"\">Ballonexpandierbare Stents</a></p></li><li><p><a href=\"/produkte/periphere-gefäßtherapie/selbstexpandierende-stents/liste/\" title=\"\">Selbstexpandierende Stents</a></p></li></ul>"
 hintergrundbild = "/uploads/2021/12/09/icon-peripher-white.png"
 titel_lang = "Produkte Interventionelle Gefäßtherapie [Peripher]"
 [produktbereiche.hintergrundfarbe]
@@ -107,13 +107,13 @@ titel = "Koronar"
 [produktbereiche.titel.textfarbe]
 farbe = "weiss:rgb(255,255,255)"
 [[slider]]
-bild = "/uploads/slide_umzug.jpg"
-content = "iVascular GmbH<br>Hanauer Landstraße 291A<br>60314 Frankfurt"
+bild = "/uploads/slide_madeinEurope.jpg"
+content = "Crafted with Care, <br>Backed by innovation.<br>100% Made in Europe"
 link = ""
 link_button_beschriftung = ""
 link_button_qm = false
-linktitel = "Kontakt"
-titel = "ACHTUNG! Wir sind umgezogen"
+linktitel = ""
+titel = "Ivasuclar <br>from the heart"
 [[slider]]
 bild = "/uploads/2021/05/04/bildschirmfoto-2021-05-04-um-21-52-38.png"
 content = "iVascular has announced that the company has received CE-mark for their new balloon-expandable ePTFE covered stent!"
