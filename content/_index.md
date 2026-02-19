@@ -113,7 +113,7 @@ link = ""
 link_button_beschriftung = ""
 link_button_qm = false
 linktitel = ""
-titel = "Ivasuclar <br>from the heart"
+titel = "Ivasuclar from the heart"
 [[slider]]
 bild = "/uploads/2021/05/04/bildschirmfoto-2021-05-04-um-21-52-38.png"
 content = "iVascular has announced that the company has received CE-mark for their new balloon-expandable ePTFE covered stent!"
