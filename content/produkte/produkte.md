@@ -27,5 +27,9 @@ bild = "/uploads/2021/12/09/icon-koronar-white.png"
 link = "produkte/Koronare Gefäßtherapie/liste.md"
 linkbeschriftung = "weiter"
 titel = "Koronare Gefäßtherapie"
-
+[[bereiche]]
+bild = "/uploads/2021/12/09/icon-koronar-white.png"
+link = "produkte/Intrakranielle Gefäßtherapie/liste.md"
+linkbeschriftung = "weiter"
+titel = "Intrakranielle Gefäßtherapie"
 +++
