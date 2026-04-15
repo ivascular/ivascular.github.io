@@ -5,7 +5,7 @@ monat = "2019-04-01T00:00:00+01:00"
 seo_description = "Intrakranielle Gefäßtherapie: iNedit,iNdeep,iNtercept,iNstroke 4F,iNstroke 6F"
 title = "Intrakranielle Gefäßtherapie"
 [header]
-hintergrundbild = "/uploads/icon_brain.png"
+hintergrundbild = "/uploads/icon_brain_1504.png"
 [header.hintergrundfarbe]
 farbe = "green:#00a989"
 [header.titelfarbe]
@@ -31,12 +31,12 @@ link = "https://ivascular.global/therapeutic-areas/neuro/intercept"
 linkbeschriftung = "weiter"
 titel = "iNtercept"
 [[bereiche]]
-bild = "/uploads/iNdeep.jpg"
+bild = "/uploads/indeep.png"
 link = "https://ivascular.global/therapeutic-areas/neuro/indeep"
 linkbeschriftung = "weiter"
 titel = "iNdeep"
 [[bereiche]]
-bild = "/uploads/iNedit.jpg"
+bild = "/uploads/inedit.png"
 link = "https://ivascular.global/therapeutic-areas/neuro/inedit"
 linkbeschriftung = "weiter"
 titel = "iNedit"

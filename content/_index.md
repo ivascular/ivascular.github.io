@@ -108,7 +108,7 @@ titel = "Koronar"
 farbe = "weiss:rgb(255,255,255)"
 [[produktbereiche]]
 content = "<ul><li><p><a href=\"/produkte/intrakranielle-gefäßtherapie/landing/\">iNedit</a></p></li><li><p><a href=\"/produkte/intrakranielle-gefäßtherapie/landing/\">iNdeep</a></p></li><li><p><a href=\"/produkte/intrakranielle-gefäßtherapie/landing/\">iNtercept</a></p></li><li><p><a href=\"/produkte/intrakranielle-gefäßtherapie/landing/\">iNstroke 4F</a></p></li><li><p><a href=\"/produkte/intrakranielle-gefäßtherapie/landing/\">iNstroke 6F</a></p></li></ul>"
-hintergrundbild = "/uploads/icon_brain.png"
+hintergrundbild = "/uploads/icon_brain_1504.png"
 titel_lang = "Produkte Intrakranielle Gefäßtherapie [Intrakranielle]"
 [produktbereiche.hintergrundfarbe]
 farbe = "green:#00a989"
