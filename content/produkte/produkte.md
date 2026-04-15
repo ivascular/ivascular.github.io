@@ -28,7 +28,7 @@ link = "produkte/Koronare Gefäßtherapie/liste.md"
 linkbeschriftung = "weiter"
 titel = "Koronare Gefäßtherapie"
 [[bereiche]]
-bild = "uploads/icon_brain_1504.png"
+bild = "/uploads/icon_brain_1504.png"
 link = "produkte/Intrakranielle Gefäßtherapie/landing.md"
 linkbeschriftung = "weiter"
 titel = "Intrakranielle Gefäßtherapie"
