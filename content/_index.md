@@ -106,6 +106,18 @@ farbe = "weiss:rgb(255,255,255)"
 titel = "Koronar"
 [produktbereiche.titel.textfarbe]
 farbe = "weiss:rgb(255,255,255)"
+[[produktbereiche]]
+content = "<ul><li><p><a href=\"/produkte/intrakranielle-gefäßtherapie/landing/\">iNedit</a></p></li><li><p><a href=\"/produkte/intrakranielle-gefäßtherapie/landing/\">iNdeep</a></p></li><li><p><a href=\"/produkte/intrakranielle-gefäßtherapie/landing/\">iNtercept</a></p></li><li><p><a href=\"/produkte/intrakranielle-gefäßtherapie/landing/\">iNstroke 4F</a></p></li><li><p><a href=\"/produkte/intrakranielle-gefäßtherapie/landing/\">iNstroke 6F</a></p></li></ul>"
+hintergrundbild = "/uploads/icon_brain.png"
+titel_lang = "Produkte Intrakranielle Gefäßtherapie [Intrakranielle]"
+[produktbereiche.hintergrundfarbe]
+farbe = "green:#00a989"
+[produktbereiche.textfarbe]
+farbe = "weiss:rgb(255,255,255)"
+[produktbereiche.titel]
+titel = "Intrakranielle"
+[produktbereiche.titel.textfarbe]
+farbe = "weiss:rgb(255,255,255)"
 [[slider]]
 bild = "/uploads/slide_madeinEurope.jpg"
 content = "Crafted with Care, <br>Backed by innovation.<br>100% Made in Europe"

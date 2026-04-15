@@ -51,20 +51,25 @@
   </div>
   {{end}}
   {{with .Params.produktbereiche}}
-  <div class="ui container c50i50 cblock pbereiche">
+  <div class="ui container cblock pbereiche">
       {{ range . }}
       <div class="content" {{ printf "style=background:%s %s" (partial "colorextr" .hintergrundfarbe.farbe) | safeHTMLAttr }}>
-          <div class="pimg" style="background:url({{partial "imgUrl" (dict "img" .hintergrundbild "params" "" )}}) no-repeat;">
-          <h4  {{ printf "style=color:%s" (partial "colorextr" .titel.textfarbe.farbe) | safeHTMLAttr }}>
-            {{replaceRE "\\[.+\\]" "" .titel_lang}}
-          </h4>
-          <h3 {{ printf "style=color:%s" (partial "colorextr" .titel.textfarbe.farbe) | safeHTMLAttr }}>
-            {{.titel.titel}}
-          </h3>
+          <div class="header">
+            <div>
+              <img src="{{partial "imgUrl" (dict "img" .hintergrundbild "params" "" )}}"/>
+            </div>
+            <div>
+              <h4  {{ printf "style=color:%s" (partial "colorextr" .titel.textfarbe.farbe) | safeHTMLAttr }}>
+                {{replaceRE "\\[.+\\]" "" .titel_lang}}
+              </h4>
+              <h3 {{ printf "style=color:%s" (partial "colorextr" .titel.textfarbe.farbe) | safeHTMLAttr }}>
+                {{.titel.titel}}
+              </h3>
+            </div>
+          </div>
           <div {{ printf "style=color:%s" (partial "colorextr" .titel.textfarbe.farbe) | safeHTMLAttr }}>
             {{.content|safeHTML}}
           </div>
-        </div>
       </div>
     {{end}}
   </div>
